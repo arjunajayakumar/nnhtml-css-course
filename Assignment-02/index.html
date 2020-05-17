@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <div class="body">
+    <h1 class="heading">Registration Form</h1>
+    <form>
+      <label for="name" class="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required> <br> <br>
+      <label class="sex">Sex</label> <br><br>
+      <div class="radio">
+        <input type="radio" name="sex" id="male">
+        <label for="male" class="male">Male</label>
+        <input type="radio" name="sex" id="female">
+        <label for="female" class="female">Female</label>
+      </div>
+      <label for="age" class="age">Age</label>
+      <input type="text" name="age" id="age" placeholder="Enter your age"> <br><br>
+      <label class="website">Website</label>
+      <a href="www.samplewebsite.com" class="link">www.samplewebsite.com</a> <br><br>
+      <label class="qualification">Qualification </label>
+      <select name="qualification" id="qualification">
+        <label>Select Qualification</label>
+        <option value="qu">Select your Qualification</option>
+        <option value="qu">SSLC</option>
+        <option value="qu">Plus two</option>
+        <option value="qu">UG</option>
+        <option value="qu">PG</option>
+      </select>
+      <br><br>
+      <label for="mail" class="mail">Email</label>
+      <input type="text" name="mail" id="mail" placeholder="Enter your email" required> <br><br>
+      <label for="address" class="address">Address</label>
+      <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address.."></textarea> <br><br>
+      <input type="submit" name="Submit" class="button"> <br><br>
+      <div class="css">
+        Cascading Style Sheets is a style sheet language used for describing the presentation of a document written
+        in
+        a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and
+        JavaScript.
+      </div>
+      <div class="javascript">
+        JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+        JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
+      </div>
+      <div class="primary">
+        <div class="colorlist">
+          <label class="primarycolor">Primary color list</label> <br><br>
+          <div class="rgb">
+            <input type="radio" name="color" id="red">
+            <label for="red" class="red">Red</label><br><br>
+            <input type="radio" name="color" id="blue">
+            <label for="blue" class="blue">Blue</label><br><br>
+            <input type="radio" name="color" id="green">
+            <label for="green" class="green">Green</label><br><br>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

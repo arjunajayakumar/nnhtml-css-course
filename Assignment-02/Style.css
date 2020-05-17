@@ -1,0 +1,201 @@
+/* Class selectors */
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(254, 241, 203);
+  margin: 0 300px 0 300px;
+}
+  
+form input {
+  margin-left: 40px;
+}
+
+.name {
+  border: 1px solid black;
+  padding: 6px 52px 6px 52px;
+  background-color: cornflowerblue;
+}
+
+.sex {
+  border: 1px solid black;
+  padding: 6px 59px 6px 59px;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.age {
+  border: 1px solid black;
+  padding: 6px 57px 6px 57px;
+  position: relative;
+  bottom: 27px;
+  background-color: cornflowerblue;
+}
+.website {
+  border: 1px solid black;
+  padding: 6px 46px 6px 46px;
+  position: relative;
+  bottom: 25px;
+  background-color: cornflowerblue;
+}
+.qualification {
+  border: 1px solid black;
+  padding: 6px 27px 6px 27px;
+  position: relative;
+  bottom: 17px;
+  background-color: cornflowerblue;
+}
+
+.mail {
+  border: 1px solid black;
+  padding: 6px 52px 6px 52px;
+  position: relative;
+  bottom: 17px;
+  background-color: cornflowerblue;
+}
+
+.address {
+  border: 1px solid black;
+  padding: 6px 45px 6px 45px;
+  position: relative;
+  bottom: 154px;
+  background-color: cornflowerblue;
+}
+  .radio {
+    border: 1px solid black;
+  margin:0 1000px 0 253px;
+  padding: 7px 18px 7px 5px;
+  position: relative;
+  bottom: 45px;
+  width: 205px;
+  }
+  #name {
+    padding: 8px 34px 8px 37px;
+    margin-left: 105px;
+    border: 1px solid black;
+  }
+  form {
+    margin:80px 0 0 200px;
+  }
+
+  #age {
+    padding:8px 25px 8px 47px;
+    margin-left: 105px;
+    position: relative;
+    bottom: 30px;
+    border: 1px solid black;
+  }
+
+  .link {
+    position: relative;
+    bottom: 30px;
+    margin: 100px;
+    padding:3px 42px 12px 25px;
+    border: 1px solid black;
+  }
+
+#qualification {
+  padding:5px 26px 10px 40px;
+ margin-left: 104px;
+ position: relative;
+ bottom: 20px;
+ border: 1px solid black;
+}
+
+#mail {
+  padding:8px 24px 9px 52px;
+  position: relative;
+  bottom: 21px;
+  margin-left: 100px;
+  border: 1px solid black;
+}
+
+#address {
+  margin-left: 101px;
+  position: relative;
+  bottom: 18px;
+  border: 1px solid black;
+}
+
+ 
+.button {
+  padding: 10px 40px 10px 40px;
+  border-radius: 6px;
+  background-color: rgb(51, 153, 51);
+  color: azure;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 300px;
+}
+
+.css {
+  border: 1px solid black;
+  padding:0 10px 0 10px;
+  width: 187px;
+  height: 200px;
+  margin-top:40px ;
+  background-color: rgb(51, 191, 226);
+}
+
+.javascript {
+  border: 1px solid black;
+  padding:0 10px 0 10px;
+  width: 200px;
+  height: 200px;
+  margin: 1px 0 0 250px;
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  background-color: rgb(56, 192, 192);
+}
+.primary {
+  border: 1px solid black;
+  padding:0 10px 0 10px;
+  width: 200px;
+  height: 200px;
+  margin-left:500px;
+  position: relative;
+  bottom: 400px;
+  background-color: rgb(230, 89, 131);
+}
+
+.body {
+  padding: 10px;
+  margin:0 10% 0 10% ;
+  background-color:white;
+}
+
+.colorlist {
+  padding:30px;
+}
+
+.primarycolor {
+  border: 1px solid black;
+  padding: 5px 8px 5px 12px;
+  background-color: cornflowerblue;
+  color: azure;
+ 
+}
+
+.red {
+  border: 1px solid black;
+  padding: 3px 23px 3px 23px;
+  background-color: red;
+  color: azure;
+  
+}
+.blue {
+  border: 1px solid black;
+  padding: 3px 22px 3px 22px;
+  background-color:blue;
+  color: azure;
+}
+.green {
+  border: 1px solid black;
+  padding: 3px 18px 3px 18px;
+  background-color: green;
+  color: azure;
+}
+
