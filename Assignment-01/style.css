@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(151, 144, 144);
+  border: 8px solid 	rgb(0, 110, 175);
+  padding: 60px;
+}
+
+.heading {
+  text-transform:uppercase;
+  text-align: center;
+  border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: wavy;
+  padding: 4px;
+}
+
+.anchor {
+  list-style-type: none;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+.anchorlinks {
+  display: inline-block;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px;
+  width: 10%;
+  height: 10%;
+  background-color: rgb(170, 174, 177);
+  border: 2px solid rgb(202, 163, 149);
+}
+
+.secondheading {
+  border: 3px solid rgb(96, 123, 163);
+  border-width: 4px;
+  height: fit-content;
+  margin: 4px;
+  padding: 6px;
+  background-color: rgb(218, 232, 252);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .contact {
+  text-align: center;
+  border: 5px solid rgb(27, 92, 167);
+  background-color: white; 
+  padding: 40px;
+  height: fit-content;
+  width: 260%;
+  
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 500px;
+  clear: both;
+}
+
+
+.remarklabel {
+  position: relative;
+  bottom: 90px;
+}
+
+#name {
+  width: 250px;
+  height: 30px;
+}
+
+#address1 {
+  width: 250px;
+  height: 30px;
+}
+
+#address2 {
+  width: 250px;
+  height: 30px;
+}
+#address3 {
+  width: 250px;
+  height: 30px;
+}
+
+#pin {
+    width: 250px;
+    height: 30px;
+  }
+#mail {
+  width: 250px;
+  height: 30px;
+}
+
+#submit {
+  width: 230px;
+  text-align: center;
+  font-weight: bold;
+  background-color:rgb(147, 196, 224);
+  height: 45px;
+  font-size: 20px;
+}
+
+
+
+
