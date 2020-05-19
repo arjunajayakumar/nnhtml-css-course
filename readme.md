@@ -57,6 +57,117 @@ Common html elements
   </form>
 
 
+##  TUTORIAL05
+
+### css selectors and classes.
+
+
+1. class selector - to specifically select a tag.  
+   
+eg:<p class="name">Hello world</P>
+
+   	syntax: .name { } 
+
+if we select p.name { } - This will only select the p tag with the      class name = name
+we can also use multiple class names for a tag
+
+eg: <p class="name hello">Hello world</P>
+
+   	syntax: p.name.hello { } 
+	
+2. ID selector
+ 
+eg: <p id ="name"> hello world  </p>
+
+syntax = #name {}
+
+3. descendant selector - selects the child element of a parent element
+
+eg: div p {
+
+will select only p tags of a div 
+}
+
+
+
+4. attribute selectors
+
+	eg: a[href]
+
+to select a href attrib with a specific href value
+
+eg: a[href="https://thenetninja.co.uk"] will select all href with the value 'https://thenetninja.co.uk' 
+or 
+a[href*="thenetninja"] means any href starts with the net ninja
+
+a[href$="thenetninja"] means any href ends with the net ninja
+
+The cascade
+
+HTML elements can inherit css properties that are applied to their parents
+
+Eg HTML: <div>
+<p></P
+</div> 
+
+If we apply a style to the div element
+Div { color: red}
+
+Font properties can only be inherited.
+
+Specificity and precedence.
+
+Div {
+Color: orange;
+}
+
+
+P {
+Color: cinnamon;
+}
+Div.p {
+Color : tomato
+}
+
+the 3rd one is more specific than others so this will have first priority than others, followed by 2 and 1.
+
+Doubt
+
+1. Why to use multiple class names for a class
+2. diff between descendant selector and multiple class selector
+
+## Tutorial 06
+
+### HTML Schematic Tags
+
+Used for a better structuring of the HTML page or making the code more meaningful.
+
+<main> - for the main content of a webpage. This is unique to a webpage.
+ eg - navigation
+
+<section> - Defines a certain section of a webpage.
+eg - contact, blog list
+
+<article> - defines a bit of content which makes up an article
+   eg - a blog post
+<aside> - defines some content related to something else
+ Eg - similar blogs
+<header> - for the header of a website - contains the nav, title etc..
+ 
+<footer> - for the footer of a website
+<nav>
+
+
+## Tutorial 7
+### Chrome Development tools
+
+1.elements tab - list all the html tags and its properties
+2.If any rule is cross ruled it means this is over written by a new rule
+3.Sources tab - shows all the source files of the project
+
+
+
+
 
 
 
