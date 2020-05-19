@@ -20,6 +20,6 @@
 7. nav - for navigation links
 
 `a[href*="thenetninja"]`
- ```syntax: <ul> 
+ syntax: ```<ul> 
       <li></li>
       </ul>```
