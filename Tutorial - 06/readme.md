@@ -20,6 +20,6 @@
 7. nav - for navigation links
 
 syntax :
-```<ul> 
+``` <ul> 
       <li></li>
-   </ul>
+   </ul> '''
