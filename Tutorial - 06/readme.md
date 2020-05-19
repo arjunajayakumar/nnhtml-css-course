@@ -19,10 +19,7 @@
 
 7. nav - for navigation links
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+syntax :
+```<ul> 
+      <li></li>
+   </ul>```
