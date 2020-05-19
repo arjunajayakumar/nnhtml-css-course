@@ -21,6 +21,6 @@
 
 syntax :
 
-<ul> 
+``` <ul> 
       <li> </li>
-</ul> 
+</ul> ``` 
