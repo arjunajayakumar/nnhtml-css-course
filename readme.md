@@ -117,28 +117,38 @@ we can also use multiple class names for a tag
 
 HTML elements can inherit css properties that are applied to their parents
 
-  Eg HTML: <div>
-  <p></P
-  </div> 
+```
+  eg: <div>
+  	<p></P>
+      </div> 
 
+	```
   If we apply a style to the div element
-  Div { color: red}
+  Div {
+  color: red;
+  }
+  
+  ```
+
 
 Font properties can only be inherited.
 
-Specificity and precedence.
+#### Specificity and precedence.
 
-Div {
-Color: orange;
-}
+```
+* Div {
+	Color: orange;
+	}
 
-
-P {
+* P {
 Color: cinnamon;
 }
-Div.p {
-Color : tomato
+
+* Div.p {
+Color : tomato;
 }
+
+```
 
 the 3rd one is more specific than others so this will have first priority than others, followed by 2 and 1.
 
@@ -149,10 +159,11 @@ Doubt
 
 ## HTML Schematic Tags
 
-Used for a better structuring of the HTML page or making the code more meaningful.
+#### Used for a better structuring of the HTML page or making the code more meaningful.
 
+```
   <main> - for the main content of a webpage. This is unique to a webpage.
-  eg - navigation
+  eg - navigation tab
 
   <section> - Defines a certain section of a webpage.
   eg - contact, blog list
@@ -166,13 +177,13 @@ Used for a better structuring of the HTML page or making the code more meaningfu
   <footer> - for the footer of a website
   <nav> - for navigation links
     eg: ul
-
+```
 
 ## Chrome Development tools
 
-1.elements tab - list all the html tags and its properties
-2.If any rule is cross ruled it means this is over written by a new rule
-3.Sources tab - shows all the source files of the project  
+1. elements tab - list all the html tags and its properties
+2. If any rule is cross ruled it means this is over written by a new rule
+3. Sources tab - shows all the source files of the project  
 
 ## CSS Layout and Position
 
@@ -220,6 +231,7 @@ Used for a better structuring of the HTML page or making the code more meaningfu
   Left : 20px;
   Bottom: 20px;
   }
+  
   ```
 
 5. Sticky - it is a mixture of static and fixed.
