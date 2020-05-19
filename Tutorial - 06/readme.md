@@ -19,9 +19,10 @@
 
 7. nav - for navigation links
 
-syntax :
+
 
 ``` 
+syntax :
 <ul> 
       <li> </li>
 </ul> 
