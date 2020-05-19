@@ -59,9 +59,7 @@ Common html elements
   </form>`
   ```
 
-##  TUTORIAL05
-
-### CSS selectors and classes.
+## CSS classes and selectors.
 
 
 1. class selector - to specifically select a tag.  
@@ -103,19 +101,19 @@ we can also use multiple class names for a tag
 
 4. attribute selectors
 
-	eg: `a[href]`
+	eg: a[href]
 
   To select a href attribute with a specific href value
 
-  eg: `a[href="https://thenetninja.co.uk"]` will select all href with the value 'https://thenetninja.co.uk' 
+  eg: a[href="https://thenetninja.co.uk"]` will select all href with the value 'https://thenetninja.co.uk
   
     or 
   
-  `a[href*="thenetninja"]` means any href starts with the net ninja
+  a[href*="thenetninja"]` means any href starts with the net ninja
 
-  `a[href$="thenetninja"]` means any href ends with the net ninja
+  a[href$="thenetninja"]` means any href ends with the net ninja.
 
-#### The cascade
+### The cascade
 
 HTML elements can inherit css properties that are applied to their parents
 
