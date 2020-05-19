@@ -92,12 +92,12 @@ we can also use multiple class names for a tag
 3. descendant selector - selects the child element of a parent element
 
 ```
-  eg: div p {
+  	eg: div p {
 
-  will select only p tags of a div 
+  	will select only p tags of a div 
   }
 
-````
+	````
 
 4. attribute selectors
 
@@ -105,11 +105,11 @@ we can also use multiple class names for a tag
 
   To select a href attribute with a specific href value
 
-  eg: a[href="https://thenetninja.co.uk"]` will select all href with the value 'https://thenetninja.co.uk
+  eg: a[href="https://thenetninja.co.uk"] will select all href with the value 'https://thenetninja.co.uk
   
     or 
   
-  a[href*="thenetninja"]` means any href starts with the net ninja
+  a[href*="thenetninja"] means any href starts with the net ninja
 
   a[href$="thenetninja"]` means any href ends with the net ninja.
 
@@ -184,28 +184,31 @@ Used for a better structuring of the HTML page or making the code more meaningfu
     * Absolute
     * Sticky
 
-1. staic - This is the default value
+1. static - This is the default value
 
 2. Relative - Means we can shift the element relative to the original position in the page
 
-```
+	```
   eg: {
   Position: relative;    
   Left : 20px;
   bottom:20px
   } 
-  ```
+  	
+	```
 
   This will shift the elements 20px to left and 20px from bottom.
 
 3. Fixed - will position the element fixed even if we scroll the page down.
 
+	```
   eg: {
   Position: fixed;    
   Left : 0px;
   Bottom: 0px
   } 
-
+  
+	```
   This will put the elements in a fixed position.
 
 
