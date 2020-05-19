@@ -18,3 +18,5 @@
 6. footer - for the footer of a website
 
 7. nav - for navigation links
+
+`a[href*="thenetninja"]`
