@@ -180,21 +180,23 @@ Used for a better structuring of the HTML page or making the code more meaningfu
 
   CSS Positions
 
-    Static
-    Relative
-    Fixed
-    Absolute
-    Sticky
+    * Static
+    * Relative
+    * Fixed
+    * Absolute
+    * Sticky
 
 1. staic - This is the default value
 
 2. Relative - Means we can shift the element relative to the original position in the page
 
+```
   eg: {
   Position: relative;    
   Left : 20px;
   bottom:20px
   } 
+  ```
 
   This will shift the elements 20px to left and 20px from bottom.
 
@@ -211,20 +213,24 @@ Used for a better structuring of the HTML page or making the code more meaningfu
 
 4. Absolute - will position the element relative to its closest parent.
 
+```
 	eg: {
   Position: absolute;    
   Left : 20px;
   Bottom: 20px;
   }
+  ```
 
 5. Sticky - it is a mixture of static and fixed.
 
   It takes a value from top or bottom and when that value is achieved this will stick on that.
+  ```
   Eg: nav {
   Position: sticky;
   Top:148px;
   }
   The nav bar will stick on the page when the value 148px is achieved from the top.
+  ```
 
 
 
