@@ -19,7 +19,10 @@
 
 7. nav - for navigation links
 
-`a[href*="thenetninja"]`
- syntax: ```<ul> 
-      <li></li>
-      </ul>```
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
