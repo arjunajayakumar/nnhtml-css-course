@@ -1,0 +1,35 @@
+/* Class selectors*/
+p.firstpara {
+color: blueviolet;
+}
+
+.error {
+  color: brown;
+}
+
+p.lorel.lipsum {
+  border: 3px dashed rgb(27, 116, 27);
+  padding: 10px;
+}
+
+div .ninja p {
+  background-color: #ebebeb;
+}
+
+/* ID selector */
+
+#idselector {
+  color: tomato;
+  background-color: #ebebeb;
+}
+
+/* anchor selector */
+
+a[href *="thenetninja"] {
+  background-color:#3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+
+} 
