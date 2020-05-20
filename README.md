@@ -244,7 +244,99 @@ Doubt
   }
   The nav bar will stick on the page when the value 148px is achieved from the top.
   ```
+## Pseudo classes 
+### style elements when they are in a particular state
+#### hover, focus,first child of a parent
 
+
+1. hover pseudo class - hover means when draw the crusor over a link or image
+
+```
+nav li a:hover {
+text-decoration:underline; - to get a underline effect when we hover over the a tags 
+}
+
+```
+	```
+images li:hover {
+position:relative;  - images will shift 4px upwards when we hover over the images
+top:-4;
+}
+
+```
+
+2. focus pseudo class - focus means when we click a form field or a link
+
+````
+
+form input:focus {
+border:4px dashed #4b4b4b;
+outline:none;
+}
+
+```
+
+3. valid pseudo class - valid is used to identify the user input is valid or not
+
+eg: if we enter a email address into a form field, if it is not in the correct format 
+
+```
+
+form input:focus {
+border:4px solid #71d300;
+}
+
+```
+
+4. first child pseudoclass - we can tag the first child of a parent element with this pseudoclass
+
+```
+nav li:first-child {
+  border: 4px solid #f63232; - this will draw a border for the first child of the nav bar.
+}
+
+```
+
+5. Pseudo elements
+
+##### Used to insert content dynamically before or after a element
+
+```
+
+eg:
+
+article p::first-line {
+  font-weight: bold;	- This will make the first line of the p tag of article section to bold and increase the size of the font to 1.2em.
+  font: 1.2em;
+}
+
+section.join p::first-letter {
+  font-size: 1.5em;		- This will increase the text size of the first letter to 1.5em.
+}
+
+```
+
+6. p::selection {
+  background-color: #f63232;	- this will  make the background color to #f63232 and text color to white when we select a paragraph content 
+  color: white;
+}
+
+
+7. p::after {
+  content: '...';   - this will add '...' after every p contents using the property content.
+}
+
+
+8. p::before {
+  content: '...';   - this will add '...' after every p contents using the property content.
+}
+
+
+## Media query - tell the browser hoe to style an element at particular viewport dimensions 13:16
+
+viewport meta tag - tells the browser what width the viewport should be
+
+meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
