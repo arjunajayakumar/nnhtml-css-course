@@ -331,12 +331,14 @@ section.join p::first-letter {
   content: '...';   - this will add '...' after every p contents using the property content.
 }
 
+```
 
-## Media query - tell the browser hoe to style an element at particular viewport dimensions 13:16
 
-viewport meta tag - tells the browser what width the viewport should be
+## 10_Media query - tell the browser hoe to style an element at particular viewport dimensions 13:16
 
-meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+1. viewport meta tag - tells the browser what width the viewport should be
+
+2. meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
