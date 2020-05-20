@@ -1,12 +1,12 @@
 # Net Ninja HTML, CSS Course
 
-## Introduction
+## 01_Introduction
 
 1.HTML is the markup language to structure content
 2.CSS is the language for styling web pages.
 3.HTML tags are used for structuring the content on a web page.
 
-## HTML Basics
+## 02_HTML Basics
 ### HTML Tags - The HTML document is composed of a tree of HTML elements or tags. All the elements are represented using a opening tag and a closing tag. (< ></ >)
 
 Common html elements
@@ -49,7 +49,7 @@ Common html elements
   
   eg: href - for adding hyperlinks
 
-## HTML Forms
+## 03_HTML Forms
 
   ```
   syntax
@@ -59,7 +59,7 @@ Common html elements
   </form>`
   ```
 
-## CSS classes and selectors.
+## 04_CSS classes and selectors.
 
 
 1. class selector - to specifically select a tag.  
@@ -113,7 +113,7 @@ we can also use multiple class names for a tag
 
   a[href$="thenetninja"]` means any href ends with the net ninja.
 
-### The cascade
+### 05_The cascade
 
 HTML elements can inherit css properties that are applied to their parents
 
@@ -157,7 +157,7 @@ Doubt
 1. Why to use multiple class names for a class
 2. diff between descendant selector and multiple class selector
 
-## HTML Schematic Tags
+## 06_HTML Schematic Tags
 
 #### Used for a better structuring of the HTML page or making the code more meaningful.
 
@@ -179,13 +179,13 @@ Doubt
     eg: ul
 ```
 
-## Chrome Development tools
+## 07_Chrome Development tools
 
 1. elements tab - list all the html tags and its properties
 2. If any rule is cross ruled it means this is over written by a new rule
 3. Sources tab - shows all the source files of the project  
 
-## CSS Layout and Position
+## 08_CSS Layout and Position
 
   CSS Positions
 
@@ -244,7 +244,7 @@ Doubt
   }
   The nav bar will stick on the page when the value 148px is achieved from the top.
   ```
-## Pseudo classes 
+## 09_Pseudo classes 
 ### style elements when they are in a particular state
 #### hover, focus,first child of a parent
 
