@@ -58,8 +58,8 @@ Common html elements
   <input type = "text", id="name">
   </form>`
   ```
-
-## 04_CSS classes and selectors.
+## 04_CSS Basics
+## 05_CSS classes and selectors.
 
 
 1. class selector - to specifically select a tag.  
@@ -113,7 +113,7 @@ we can also use multiple class names for a tag
 
   a[href$="thenetninja"]` means any href ends with the net ninja.
 
-### 05_The cascade
+### The cascade
 
 HTML elements can inherit css properties that are applied to their parents
 
