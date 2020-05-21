@@ -1,0 +1,260 @@
+body, ul, h1, h2, li, a {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;  
+}
+
+header h1 {
+  border: 8px solid white;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.school img {
+  width: 100%;
+  background: red;  
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  margin: 0 auto;
+  background-color: seashell;
+  padding: 25px;
+  list-style-type: none;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 2px auto;
+  white-space: nowrap;
+  list-style-type: none;
+  
+}
+
+nav li {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  font-size: 24px;
+}
+
+nav li a {
+  color:brown;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+
+h2 {
+  background-color: rgb(204, 204, 224);
+  font-size: 27px;
+  text-align: center;
+  padding: 32px;
+  margin-bottom:15px;
+  margin-top:0 ;
+}
+
+.leftlabel1 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px;
+}
+
+.leftlabel2 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px;
+}
+.leftlabel3 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px;
+}
+  
+.leftlabel4 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px;
+}
+.leftlabel5 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px; 
+}
+
+.leftlabel6 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px; 
+}
+
+.leftlabel7 div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 150px;
+}
+
+
+.dob div {
+  display: inline-flex;
+  width: 234px;
+  position: relative;
+  left: 86px;
+  top: -1px;
+}
+
+
+/* .dob div {
+  display: inline-block;
+  margin-left: 86px;
+  width:294px; 
+} */
+
+
+
+/* .dobinput {
+  position: relative;
+  right: 147px;
+  
+} */
+
+.remark div {
+  display: inline-block;
+  margin-left: 86px;
+  width: 148px; 
+}
+
+.remark label {
+  position: relative;
+  bottom: 160px;
+}
+
+input[type=submit] {
+  position: relative;
+  left: 14%;
+  padding: 7px;
+  width: 10%;
+  outline: none;
+  background-color: brown;
+  color: white;
+  margin: 15px auto;
+}
+
+main .studentdetails {
+  margin: 10px 1px;
+  text-align: center;
+  padding: 20px;
+}
+
+form p {
+  display: inline-block;
+}
+
+footer {
+  background-color: brown;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  font-size: 20px;
+}
+ footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width:1172px) {
+  input[type=submit] {
+    position: relative;
+    left: 10%;
+    padding: 7px;
+    width: 14%;
+    outline: none;
+    background-color: brown;
+    color: white;
+    margin: 15px auto;
+  }
+
+}
+
+
+@media screen and (max-width:1170px) {
+  input[type=submit] {
+    position: relative;
+    left: 18%;
+    padding: 7px;
+    width: 14%;
+    outline: none;
+    background-color: brown;
+    color: white;
+    margin: 15px auto;
+  }
+
+}
+
+@media screen and (max-width:1058px) {
+  input[type=submit] {
+    position: relative;
+    left: 21%;
+    padding: 7px;
+    width: 14%;
+    outline: none;
+    background-color: brown;
+    color: white;
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width:776px) {
+  nav li a {
+   font-size: 17px;
+   width: 19%;
+   
+  }  
+}
+
+@media screen and (max-width:568px) {
+  nav li a {
+   width: 20%;
+   
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
