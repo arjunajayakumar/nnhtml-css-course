@@ -11,38 +11,39 @@
 
 Common html elements
 
-1. P - paragraph tag
+1. `<P>` - paragraph tag
    Used for writing paragraph text
 
-2. h - heading tag
+2. `<h>` - heading tag
   Used for writing headings on a page. Headings tags are represented from h1 to h6 in the decreasing order of the text size.
-3. small - small tag
+3. `<small>` - small tag
   Used to make the text smaller
-4. Strong - strong tag
+4. `<Strong>` - strong tag
   Used to make the text bold
-5. ul - stands for unorderd list
+5. `<ul>` - stands for unorderd list
   used for making bulletted lists
 
-      ```
-    syntax: 
-      
+    Syntax:
+    
+```
       <ul> 
         <li></li>
       </ul>
       ```
-6. a - anchor tag
+
+6. `<a>` - anchor tag
   used for adding hyperlinks
-7. blockquote - used for adding block quotes
+7. `<blockquote>` - used for adding block quotes
       The items should be listed will be between and opening and closing ul tags
-6. div - division tag
+6. `<div>` - division tag
   div tags makes division between elements. there will be no visual effect 
-7. span - span tag
+7. `<span>` - span tag
   it is an inline element 
-8. br - line break
+8. `<br>`- line break
   for amking line breaks between elements
-9. hr - horizondal rule
+9. `<hr>` - horizondal rule
   for making a horizondal line
-10. img - image tag
+10. `<img>` - image tag
   for inserting a image to the web page
 
 11. Attribute - something inside an element which have sme property
@@ -51,69 +52,102 @@ Common html elements
 
 ## 03_HTML Forms
 
-  ```
-  syntax
-  `<form> 
+Syntax
+
+ ```
+  <form> 
   <label for="ID">name</label>
   <input type = "text", id="name">
-  </form>`
-  ```
+  </form>
+  
+```
 ## 04_CSS Basics
 ## 05_CSS classes and selectors.
 
 
 1. class selector - to specifically select a tag.  
    
-   ```
-  eg:<p class="name">Hello world</P>
-  ```
 ```
-   	syntax: .name { }
-     ```
+  eg:<p class="name">Hello world</P>
+  
+```
 
-if we select p.name { } - This will only select the p tag with the      class name = name
-we can also use multiple class names for a tag
+Syntax:
 
-  ```
-  eg: <p class="name hello">Hello world</P>
-  ````
+```
+  .name { }
+	
+```
+
+* if we select `p.name { }` - This will only select the p tag with the ` class= "name" ` .
+* We can also use multiple class names for a tag
+
+eg:
+
+```
+<p class="name hello">Hello world</P>
+
+```
+
+Syntax:
+
 ```
    	syntax: p.name.hello { } 
 
-     ```
+```
 	
 2. ID selector
  
+ eg:
+ 
  ```
-  eg: <p id ="name"> hello world  </p>
+<p id ="name"> hello world  </p>
 
-  syntax = #name {}
+```
+
+Syntax:
+
+```
+
+ #name {}
+ 
 ```
 3. descendant selector - selects the child element of a parent element
 
+eg:
+
 ```
-  	eg: div p {
+
+div p {
 
   	will select only p tags of a div 
   }
-
-	````
+  
+ ```
 
 4. attribute selectors
 
-	eg: a[href]
+eg:
 
-  To select a href attribute with a specific href value
+```
 
-  eg: a[href="https://thenetninja.co.uk"] will select all href with the value 'https://thenetninja.co.uk
+a[href]
+	
+```
+
+  ** To select a href attribute with a specific href value
+  
+  eg:
+
+  `a[href="https://thenetninja.co.uk"]` will select all href with the value `https://thenetninja.co.uk`.
   
     or 
   
-  a[href*="thenetninja"] means any href starts with the net ninja
+  `a[href*="thenetninja"]` means any href starts with the net ninja
 
-  a[href$="thenetninja"]` means any href ends with the net ninja.
+  `a[href$="thenetninja"]` means any href ends with the net ninja.
 
-### The cascade
+#### The cascade
 
 HTML elements can inherit css properties that are applied to their parents
 
