@@ -355,8 +355,86 @@ section.join p::first-letter {
 
 * We can easily create Navigation bars and menus, Grid layouts, Bar charts, Equal height columns.
 
+## 02_Flex Containers
+
+To display child elemnts as flex
+
+Steps
+-----
+
+1. Make a parent container
+2. Make child containers inside the parent container
+3. Apply display type of flex to the parent container
 
 
+* usually flex items stack from left to right in a row, but we can change the behaviour like how they grow, how they shrik, adding space between them etc...
+
+Sample HTML :
+
+``` 
+		<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Document</title>
+	  <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	  <div class="wrapper">			`` Wrapper ``
+	    <div class="flex-container">
+	      <div class="box one"></div>
+	      <div class="box two"></div>
+	      <div class="box three"></div>
+	    </div>
+	  </div>
+	</body>
+	</html>
+
+```
+
+
+Sample CSS:
+
+```
+	* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #fff;
+}
+
+.box {
+  height: 100px;
+  min-width: 100px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: green;
+}
+
+```
 
 
 
