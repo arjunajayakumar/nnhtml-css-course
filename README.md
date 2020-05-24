@@ -588,6 +588,73 @@ Sample CSS:
 
 * Also represent `flex:1;` which means `growth=1` `shrink=1` and  `basis=0`
 
+## 07_Flex Menu
+
+* Make a simple Menu bar using flexbox
+
+Sample HTML:
+```
+<body>
+  <div class="wrapper">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</body>
+```
+
+Sample CSS:
+
+```
+/* Menu bse styles */
+nav {
+  background:#333;
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+nav ul a {
+text-decoration: none;
+text-align:centre;
+color: #fff;
+padding: 10px;
+display: block;
+
+}
+
+ nav a:hover{
+   background-color: #555;
+ }
+
+ /* Media Queries */
+ @media screen and (min-width:768px) {
+   nav ul {
+     display: flex;
+     justify-content: flex-start;
+   }
+
+   nav li {
+     flex: 1 1 0;
+   }
+ }
+```
+
+* `Justify-content` property
+
+	* `justify-content:center` 	  -  will align the contents centre
+	* `justify-content:flex-end` 	  -  will align the contents to the end
+	* `justify-content:flex-start` 	  -  will align the content to the start
+	* `justify-content:space-around`  -  will make equal spaces around the contents
+	* `justify-content:space-between` -  will make equal spaces between the contents
 
 
 
