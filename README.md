@@ -461,6 +461,32 @@ Sample CSS:
 
 ```
 
+## 04_Flex Shrink
+
+* Property to shrink the size of a flex item. can have the values 1,2,3 etc...
+* It starts working only when the browser width gets reduced.
+* The bigger the shrink value, the bigger the shrink rate will be.
+
+Sample CSS:
+
+```
+.one {
+  background-color: orange;
+  flex-shrink: 1;
+}
+
+.two {
+  background-color: orangered;
+  flex-shrink: 2;
+}
+
+.three {
+  background-color: violet;
+  flex-shrink: 6;
+}
+
+```
+
 
 
 
