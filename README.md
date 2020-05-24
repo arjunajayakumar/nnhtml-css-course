@@ -438,8 +438,8 @@ body {
 
 ## 03_Flex Grow
 
-* Flex grow is a CSS property to enlarge the size of a css flex item. it can have the values 1,2,3etc... or 100,200,300 which is same as that of 1,2,3
-* Values given to the boxes act as ratios and the element width is distributed with respect to the parent conytainer width.
+* Flex grow is a CSS property to enlarge the size of a css flex item. it can have the values 1,2,3 etc... or 100,200,300 which is same as that of 1,2,3
+* Values given to the boxes act as ratios and the element width is distributed with respect to the parent container width.
 
 Sample CSS:
 
