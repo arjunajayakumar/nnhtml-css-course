@@ -650,10 +650,10 @@ display: block;
 
 * `Justify-content` property
 
-	* `justify-content:center` 	  -  will align the contents centre
+	* `justify-content:center` 	  -  will align the contents center
 	* `justify-content:flex-end` 	  -  will align the contents to the end
 	* `justify-content:flex-start` 	  -  will align the content to the start
-	* `justify-content:space-around`  -  will make equal spaces around the contents
+	* `justify-content:space-around`  -  will make spaces around the contents
 	* `justify-content:space-between` -  will make equal spaces between the contents
 
 
