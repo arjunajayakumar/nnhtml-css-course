@@ -317,11 +317,16 @@ section.join p::first-letter {
 ```
 This will increase the text size of the first letter to 1.5em.
 
-6. p::selection {
-  background-color: #f63232;	- this will  make the background color to #f63232 and text color to white when we select a paragraph content 
-  color: white;
-} ```
+6. 
 
+```
+p::selection {
+  background-color: #f63232;	content 
+  color: white;
+}
+
+````
+- this will  make the background color to #f63232 and text color to white when we select a paragraph 
 
 7. 
 
