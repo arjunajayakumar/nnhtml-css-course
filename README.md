@@ -357,7 +357,7 @@ section.join p::first-letter {
 
 ## 02_Flex Containers
 
-To display child elemnts as flex
+To display child elements as flex
 
 Steps
 -----
