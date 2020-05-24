@@ -569,7 +569,7 @@ Sample CSS:
 ```
 * We can represent grow,shrink and basis as a single line by using `flex:1 0 200px;`, which means `growth = 1` `shrink=0` and basis =  `200px`
 
-* Also represent `flex:1;` which means `growth=1` `shrink=1` and `basis=0`
+* Also represent `flex:1;` which means `growth=1` `shrink=1` and  `basis=0`
 
 
 
