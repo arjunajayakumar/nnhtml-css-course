@@ -323,15 +323,27 @@ This will increase the text size of the first letter to 1.5em.
 } ```
 
 
-7. p::after {
-  content: '...';   - this will add '...' after every p contents using the property content.
+7. 
+
+```
+p::after {
+  content: '...';   
 }
 
+```
 
-8. p::before {
-  content: '...';   - this will add '...' after every p contents using the property content.
+this will add '...' after every p contents using the property content.
+
+
+8. 
+
+```
+p::before {
+  content: '...';   
 }
 
+```
+this will add '...' after every p contents using the property content.
 
 
 
