@@ -303,8 +303,6 @@ nav li:first-child {
 
 ```
 
-eg:
-
 article p::first-line {
   font-weight: bold;	- This will make the first line of the p tag of article section to bold and increase the size of the font to 1.2em.
   font: 1.2em;
@@ -314,7 +312,7 @@ section.join p::first-letter {
   font-size: 1.5em;		- This will increase the text size of the first letter to 1.5em.
 }
 
-```
+
 
 6. p::selection {
   background-color: #f63232;	- this will  make the background color to #f63232 and text color to white when we select a paragraph content 
@@ -331,14 +329,29 @@ section.join p::first-letter {
   content: '...';   - this will add '...' after every p contents using the property content.
 }
 
-```
 
 
-## 10_Media query - tell the browser hoe to style an element at particular viewport dimensions 13:16
+
+## 10_Media queries
+
+* Tell the browser how to style an element at particular viewport dimensions.
 
 1. viewport meta tag - tells the browser what width the viewport should be
 
 2. meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+syntax:
+
+```
+@media screen (max-width:960px) {}
+
+```
+
+```
+@media screen (min-width:960px) {}
+
+```
+
 
 
 ## CSS Flexbox
