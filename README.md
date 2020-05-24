@@ -540,6 +540,37 @@ Sample CSS:
 This will wrap the `.three` element to the next line when the minium width is reached. If we further decrese the width, the `.two` content will wrap to the next line.
 * We can give the value `flex-wrap:wrap-reverse;` instead of `flex-wrap:wrap;` . This will wrap the `.three` element to the first line.  ie, opposite of wrap.
 
+## 06_Flex Basis
+
+* Also a width property but the main diffrence when compared to `min-width` is that the flex basis property will shrink when the browser view port is less than the given value ie  it will reduce the width of the element.
+
+Sample CSS:
+
+```
+.box {
+  height: 100px;
+ flex-basis: 200px;
+ flex-grow: 1;
+ 
+  
+}
+
+.one {
+  background-color:#fe6e6e;
+}
+
+.two {
+  background-color: rgb(145, 86, 65);
+} 
+
+.three {
+  background-color: rgb(134, 54, 134);
+}
+```
+* We can represent grow,shrink and basis as a single line by using `flex:1 0 200px;`, which means `growth = 1` `shrink=0` and basis =  `200px`
+
+* Also represent `flex:1;` which means `growth=1` `shrink=1` and `basis=0`
+
 
 
 
