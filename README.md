@@ -29,7 +29,7 @@ Common html elements
       <ul> 
         <li></li>
       </ul>
-      ```
+```
 
 6. `<a>` - anchor tag
   used for adding hyperlinks
@@ -52,7 +52,7 @@ Common html elements
 
 ## 03_HTML Forms
 
-Syntax
+Syntax:
 
  ```
   <form> 
@@ -67,85 +67,43 @@ Syntax
 
 1. class selector - to specifically select a tag.  
    
-```
-  eg:<p class="name">Hello world</P>
+eg:`<p class="name">Hello world</P>`
   
-```
 
-Syntax:
 
-```
-  .name { }
-	
-```
+Syntax:  `.name { }`
+
 
 * if we select `p.name { }` - This will only select the p tag with the ` class= "name" ` .
 * We can also use multiple class names for a tag
 
-eg:
+eg: `<p class="name hello">Hello world</P>`
 
-```
-<p class="name hello">Hello world</P>
-
-```
-
-Syntax:
-
-```
-   	syntax: p.name.hello { } 
-
-```
+Syntax:`syntax: p.name.hello { }` 
 	
 2. ID selector
  
- eg:
+ eg:`<p id ="name"> hello world  </p>`
+
+
+Syntax:`#name {}`
  
- ```
-<p id ="name"> hello world  </p>
-
-```
-
-Syntax:
-
-```
-
- #name {}
- 
-```
 3. descendant selector - selects the child element of a parent element
 
-eg:
-
-```
-
-div p {
-
-  	will select only p tags of a div 
-  }
+eg: `div p { }`  - will select only p tags of a div
   
- ```
-
 4. attribute selectors
 
-eg:
-
-```
-
-a[href]
+eg: `a[href]`
 	
-```
 
   ** To select a href attribute with a specific href value
   
-  eg:
-
-  `a[href="https://thenetninja.co.uk"]` will select all href with the value `https://thenetninja.co.uk`.
+  eg: `a[href="https://thenetninja.co.uk"]` will select all href with the value `https://thenetninja.co.uk`.
   
-    or 
-  
-  `a[href*="thenetninja"]` means any href starts with the net ninja
+  	`a[href*="thenetninja"]`  means any href starts with the words netninja
 
-  `a[href$="thenetninja"]` means any href ends with the net ninja.
+  	`a[href$="thenetninja"]`  means any href ends with the words netninja.
 
 #### The cascade
 
@@ -170,15 +128,15 @@ Font properties can only be inherited.
 #### Specificity and precedence.
 
 ```
-* Div {
+div {
 	Color: orange;
 	}
 
-* P {
+P {
 Color: cinnamon;
 }
 
-* Div.p {
+div.p {
 Color : tomato;
 }
 
@@ -195,23 +153,25 @@ Doubt
 
 #### Used for a better structuring of the HTML page or making the code more meaningful.
 
-```
-  <main> - for the main content of a webpage. This is unique to a webpage.
+  `<main>` - for the main content of a webpage. This is unique to a webpage.
   eg - navigation tab
 
-  <section> - Defines a certain section of a webpage.
+  `<section>` - Defines a certain section of a webpage.
   eg - contact, blog list
 
-  <article> - defines a bit of content which makes up an article
+  `<article>` - defines a bit of content which makes up an article
    eg - a blog post
-  <aside> - defines some content related to something else
-  Eg - similar blogs
-  <header> - for the header of a website - contains the nav, title etc..
+   
+  `<aside>` - defines some content related to something else
+  eg - similar blogs
+  
+  `<header>` - for the header of a website - contains the nav, title etc..
  
-  <footer> - for the footer of a website
-  <nav> - for navigation links
+  `<footer>` - for the footer of a website
+  
+  `<nav>` - for navigation links
     eg: ul
-```
+
 
 ## 07_Chrome Development tools
 
@@ -233,27 +193,27 @@ Doubt
 
 2. Relative - Means we can shift the element relative to the original position in the page
 
-	```
+```
   eg: {
   Position: relative;    
   Left : 20px;
   bottom:20px
   } 
-  	
-	```
+  
+```
 
   This will shift the elements 20px to left and 20px from bottom.
 
 3. Fixed - will position the element fixed even if we scroll the page down.
 
-	```
+```
   eg: {
   Position: fixed;    
   Left : 0px;
   Bottom: 0px
   } 
   
-	```
+```
   This will put the elements in a fixed position.
 
 
@@ -266,21 +226,25 @@ Doubt
   Bottom: 20px;
   }
   
-  ```
+```
 
 5. Sticky - it is a mixture of static and fixed.
 
   It takes a value from top or bottom and when that value is achieved this will stick on that.
+  
   ```
   Eg: nav {
   Position: sticky;
   Top:148px;
   }
+  
+```
   The nav bar will stick on the page when the value 148px is achieved from the top.
-  ```
-## 09_Pseudo classes 
-### style elements when they are in a particular state
-#### hover, focus,first child of a parent
+  
+## 09_Pseudo classes
+
+* Style elements when they are in a particular state
+* hover, focus,first child of a parent
 
 
 1. hover pseudo class - hover means when draw the crusor over a link or image
@@ -291,7 +255,8 @@ text-decoration:underline; - to get a underline effect when we hover over the a 
 }
 
 ```
-	```
+
+```
 images li:hover {
 position:relative;  - images will shift 4px upwards when we hover over the images
 top:-4;
@@ -301,7 +266,7 @@ top:-4;
 
 2. focus pseudo class - focus means when we click a form field or a link
 
-````
+```
 
 form input:focus {
 border:4px dashed #4b4b4b;
@@ -333,25 +298,29 @@ nav li:first-child {
 
 5. Pseudo elements
 
-##### Used to insert content dynamically before or after a element
+* Used to insert content dynamically before or after a element
 
 ```
-
 article p::first-line {
-  font-weight: bold;	- This will make the first line of the p tag of article section to bold and increase the size of the font to 1.2em.
-  font: 1.2em;
+  font-weight: bold;
+  font-size: 1.2em;
 }
+```
 
+This will make the first line of the p tag of article section to bold and increase the size of the font to 
+
+```
 section.join p::first-letter {
-  font-size: 1.5em;		- This will increase the text size of the first letter to 1.5em.
+  font-size: 1.5em;		
 }
 
-
+```
+This will increase the text size of the first letter to 1.5em.
 
 6. p::selection {
   background-color: #f63232;	- this will  make the background color to #f63232 and text color to white when we select a paragraph content 
   color: white;
-}
+} ```
 
 
 7. p::after {
