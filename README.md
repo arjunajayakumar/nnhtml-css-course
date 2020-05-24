@@ -341,6 +341,21 @@ section.join p::first-letter {
 2. meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+## CSS Flexbox
+
+## 01_Introduction
+
+* Flexbox is a css display type designed to help us craft CSS layouts much easier.
+* Control the position, size and spacing of elements relative to their parent elements and each other.
+* Works great responsively
+
+* If we apply display property of a parent element as flex, all the child elements will become flex itams and essential they become more   flexible, so that we can control how they shrink and expand as weel as the space between them.
+
+#### Benefits
+
+* We can easily create Navigation bars and menus, Grid layouts, Bar charts, Equal height columns.
+
+
 
 
 
