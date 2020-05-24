@@ -534,8 +534,8 @@ Sample CSS:
 
 ```
 
-This will wrap the `.three` element to the next line when the minium width. If we further decrese the width the `.two` content will wrap to the next line.
-* We can give the value `flex-wrap:wrap-reverse` instead of `flex-wrap:wrap` . This will wrap the `.three` element to the first line ie opposite of wrap.
+This will wrap the `.three` element to the next line when the minium width is reached. If we further decrese the width, the `.two` content will wrap to the next line.
+* We can give the value `flex-wrap:wrap-reverse` instead of `flex-wrap:wrap` . This will wrap the `.three` element to the first line.  ie, opposite of wrap.
 
 
 
