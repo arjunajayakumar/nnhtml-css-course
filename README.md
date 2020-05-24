@@ -381,11 +381,11 @@ Sample HTML :
 	  <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-	  <div class="wrapper">			`` Wrapper ``
-	    <div class="flex-container">
-	      <div class="box one"></div>
-	      <div class="box two"></div>
-	      <div class="box three"></div>
+	  <div class="wrapper">			--------- Wrapper
+	    <div class="flex-container">	--------- Parent container
+	      <div class="box one"></div>	--------- Child container 1
+	      <div class="box two"></div>	--------- Child container 2
+	      <div class="box three"></div>	--------- Child container 3
 	    </div>
 	  </div>
 	</body>
