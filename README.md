@@ -500,6 +500,43 @@ Sample CSS:
 
 ```
 
+## 05_Flex wrap
+ 
+* Property Wrap the content to the next line when the minimum width is reached.
+
+Sample CSS:
+
+```
+.flex-container {
+  display: flex;
+  background-color: #fff;
+  flex-wrap: wrap;
+  
+}
+
+.box {
+  height: 100px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+.one {
+  background-color: tomato;
+}
+
+.two {
+  background-color: orangered;
+}
+
+.three {
+  background-color: violet;
+}
+
+```
+
+This will wrap the `.three` element to the next line when the minium width. If we further decrese the width the `.two` content will wrap to the next line.
+* We can give the value `flex-wrap:wrap-reverse` instead of `flex-wrap:wrap` . This will wrap the `.three` element to the first line ie opposite of wrap.
+
 
 
 
