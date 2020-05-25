@@ -664,24 +664,24 @@ display: block;
 * The flex container have two axis, main axis and cross axis
 ```
 -------> main axis		
-	|
-	|
-	|
-	V
-    cross axis
+|
+|
+|
+V
+cross axis
     
-    for flex-flow :row;
+for flex-flow :row;
 ```
 
 ```
 -------> cross axis		
-	|
-	|
-	|
-	V
-    main axis
+|
+|
+|
+V
+main axis
     
-    for flex-flow :coloumn;
+for flex-flow :coloumn;
 ```
     
 * `flex-flow:row;` property always works on the main axis
