@@ -662,6 +662,28 @@ display: block;
 * `flex-flow:coloumn` - align the flex elements from row to coloumn
 * `flex-flow:row` - align the flex elements from coloumn to row
 * The flex container have two axis, main axis and cross axis
+```
+-------> main axis		
+	|
+	|
+	|
+	V
+    cross axis
+    
+    for flex-flow :row;
+```
+
+```
+-------> cross axis		
+	|
+	|
+	|
+	V
+    main axis
+    
+    for flex-flow :coloumn;
+```
+    
 * `flex-flow:row;` property always works on the main axis
 * `flex-flow:coloum;` property works on the cross axis
 * But we can control this by using the property called `justify-content` property that will always works on the main axis. By using this   we can align the contents start, end and center. 
