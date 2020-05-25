@@ -692,3 +692,9 @@ for flex-flow :coloumn;
 * `flex-flow:row-reverse;` - reverse the row and align them over to the right
 * `flex-flow:coloumn-reverse;` - reverse the coloumn and align to the bottom
 
+## 10_Align items on Cross Axis
+
+* Property `align-items` is to control items along the cross axis
+* We can use both these properties to contol the items
+* `justify-content` works on main axis and `align-items` works on cross axis
+
