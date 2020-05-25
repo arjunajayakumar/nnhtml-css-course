@@ -698,3 +698,16 @@ for flex-flow :coloumn;
 * We can use both these properties to contol the items
 * `justify-content` works on main axis and `align-items` works on cross axis
 
+## 12_Element Order
+
+* We can arrange the elements by its order property
+
+```
+ <.class> {
+   order: ;
+   }
+   
+```
+
+
+
