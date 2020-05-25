@@ -656,5 +656,17 @@ display: block;
 	* `justify-content:space-around`  -  will make spaces around the contents
 	* `justify-content:space-between` -  will make equal spaces between the contents
 
+## 09_Flow and axis
 
+* flow controls the flow of contents within a flex container ie row to coloumn and coloumn to row.
+* `flex-flow:coloumn` - align the flex elements from row to coloumn
+* `flex-flow:row` - align the flex elements from coloumn to row
+* The flex container have two axis, main axis and cross axis
+* `flex-flow:row;` property always works on the main axis
+* `flex-flow:coloum;` property works on the cross axis
+* But we can control this by using the property called `justify-content` property that will always works on the main axis. By using this   we can align the contents start, end and center. 
+* In order to work `justify-content` in coloumn, we need to provide a desirable height to the container ie we need to set a height         property also. 
+* If we apply `flex-flow:coloumn;` the the value for `flex-grow` (flex:0 0 100px;) ie 100px will control the height of the elements       instead of the width.
+* `flex-flow:row-reverse;` - reverse the row and align them over to the right
+* `flex-flow:coloumn-reverse;` - reverse the coloumn and align to the bottom
 
