@@ -1,0 +1,376 @@
+.wrapper {
+  margin: 0 auto;
+} 
+
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0px;
+ }
+
+ .firstNavigation {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .secondNavigation {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .thirdnavigation {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.list {
+  list-style-type:none;
+  padding: 0;
+}
+
+.firstNavigation a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(26, 25, 25);
+  display: block;
+  padding: 5px 20px;
+}
+
+.secondNavigation a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(26, 25, 25);
+  display: block;
+  padding: 5px 20px;
+}
+
+.thirdnavigation a {
+  text-decoration: none;
+  color: rgb(26, 25, 25);
+  padding: 5px 20px;
+}
+
+.firstNavigation a:hover {
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.search-bar input {
+  padding: 5px;
+}
+
+.search-bar input:hover {
+ border: 1px solid rgb(39, 39, 202);
+}
+
+.second-menu select {
+  border: none;
+}
+
+.bookmark .material-icons {
+  font-size: 1rem;
+  position: relative;
+  left: 18px;
+  top: 3px;
+}
+
+.share .material-icons { 
+  font-size: 1rem;
+  position: relative;
+  left: 14px;
+  top: 4px;
+}
+
+.azure {
+  width: 80px;
+  position: relative;
+  bottom: 4px;
+}
+
+.product-documentation {
+  width: 165px;
+}
+
+.architecture {
+  width: 95px;
+}
+
+.box {
+  display: flex;
+  font-size: 10px;
+  flex: 1 1 80px;
+  flex-flow: row;
+  border: 1px solid rgb(224, 224, 224);
+  margin: 8px 10px;
+}
+
+.learnAzure {
+  width: 95px ;
+}
+
+.develop {
+  width: 70px;
+}
+
+.resources {
+  width: 80px;
+}
+
+.submitbuttons li {
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.portal:hover {
+  color: #fff;
+  background: #005BA1;
+}
+
+.freeaccount {
+  background: #005BA1;
+  color:#fff;
+  border-style: none;
+  padding: 8px;
+}
+
+.portal {
+  border-style: none;
+  background: #fff;
+  padding: 7px;
+  margin-right: 11px;
+  border: 1px solid black;
+}
+
+.thirdnavigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.documentation {
+  background:#005BA1;
+  color: white;
+  padding: 25px 80px;
+  margin: 0;
+  display: block;
+}
+
+.documentation h1 {
+  font-size: 35px;  
+}
+
+.documentation p {
+  font-size: 20px;
+}
+
+.gettingstarted {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box:hover {
+  box-shadow: 2px 2px grey;
+}
+
+.menu-items ul {
+  list-style-type: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-items li {
+  text-decoration: none;
+  width: 200px;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+.menu-items li:hover {
+  background: #fff;
+}
+
+.menu-items {
+  height: 500px;
+}
+
+.products {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+
+ .product-head {
+  width: 100%;
+} 
+
+.image-box {
+  flex: 0 1 182px;
+  border: 1px solid #eeeeee;
+  margin: 2px 5px;
+  padding: 14px 10px;
+  font-size: 13px;
+  background: #fff;
+}
+
+
+.image-box:hover {
+  box-shadow: 2px 2px grey;
+}
+
+.thirdsection {
+  background: #F5F5F5;
+  padding-bottom: 50px;
+}
+
+.fourthsection {
+  padding-bottom: 50px;
+  margin: 25px 30px;
+}
+
+.programs {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap; 
+}
+
+.programbox {
+  display: flex;
+  flex: 0 1 200px;
+  margin: 10px 10px;
+  background: #f5f5f5;
+  border: 1px solid #eeeeee;
+  padding: 5px;
+}
+
+.programbox a {
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.programbox:hover {
+  box-shadow: 2px 2px rgb(182, 175, 175);
+}
+
+.program-names {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.fifthsection {
+  background:#eeeeee;
+  padding: 7px 37px;
+}
+
+.fifth-heading h2 {
+  margin-left: 71px;
+}
+
+
+.cloud-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.azure-cloud {
+  flex: 0 1 400px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 1px solid #fafafa;
+  background: #fafafa;
+}
+
+.azure-cloud h2 {
+  color: rgb(42, 107, 149 );
+  font-size: 15px;
+}
+
+.azure-cloud p {
+  font-size: 13px;
+}
+
+.azure-cloud:hover {
+  box-shadow: 2px 2px rgb(182, 175, 175);
+}
+
+.language .large.material-icons {
+  font-size: 1rem;
+  position: relative;
+  top: 3px;
+}
+
+.themebutton .large.material-icons {
+  position: relative;
+  top: 5px;
+  font-size: 1rem;
+}
+
+.footer-nav ul {
+  list-style: none;
+}
+
+.footer-menu {
+  display: flex;
+  flex-flow: row;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 2px;
+  color: black;
+}
+
+.themebutton {
+  border-style: none;
+  background: #e0e0e0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.footer-navtwo {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.footer-navtwo a {
+  text-decoration: none;
+  font-size: 13px;
+  padding: 10px 15px;
+  flex: 1.5;
+  color: black;
+}
+
+.footerbottom {
+  background: #e0e0e0;
+  padding: 25px 25px;
+  display: flex;
+}
+
+
+@media screen and (min-width:768px) {
+  .list {
+    display: flex;
+    justify-content: start;
+  }
+}
+
