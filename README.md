@@ -372,7 +372,52 @@ syntax:
 
 ```
 
+## CSS Positioning
 
+
+## 01_Box model
+* consisst of element, padding, border, margin
+  inline-block - will combine the best of inline and block
+
+## 02_Normal document flow
+* inline elements align inline and block elements will align in a new line normally
+
+## 03_Floating elements
+* floats are using to position contenets in left and right
+
+## 04_clearing float
+* float clearing is to resume the nprmal document flow. When a block become flost it normally will not allow other contents to occupy     below the main content. so we need to clear the below area by using clear float
+
+## 05_floating columns
+* We can aloso float the contents in column wise. the clearing the float is same as that of normal float clearing.
+* Normal document flow is working with out adding any extre
+## 06_Text columns
+* Webkit is a rendering engine build in brower fot drawing HTML and CSS
+* We can draw columns using webkit
+
+## 07_Position relative
+* relative positioning allow us to move the content from top bottom left and rigtht by giving the offset value
+  nth child selector.
+* it can also be used in conjunction with absolute positioning
+
+* Relative postioing will not affect the onrmal document flow. the space were the element occupied remains. the movemnt is only visually
+
+## 08_Absolute positioing
+* Absolute positioing will removes the element from normal document flow
+  will always position relative to its parent container
+
+## 09_fixed position
+* will always postion relative to the document window
+* This will also take the element out of the normal document flow
+
+## 10_z-index and stacking order
+* z index means the order of the stacking of the content. z index will put the element infront based on the value.
+* when we position an element to relative,absolute and fixed its z-index will change to 0 and the element after the postioned element     have the highest stacking order or z index value. so this element overlaps the positioned element.  
+* we need to manually enter the z-index value for the positioned element to make it infront of other elemenet. The higher the z index     value the higher the stacking order will be.
+
+## 11_Clipping content
+* We can clip the overflowed content suing the overflow property
+* over flow property can have values hidden, auto, scroll etc..
 
 ## CSS Flexbox
 
