@@ -1,0 +1,525 @@
+body {
+  margin: 0px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+  header {
+    border-bottom: 1px solid #eeee ;
+  }
+  
+  .main-navigation {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .logo {
+    margin-right: 2%;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .search-box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #eee;
+    width: 70%;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 7px 5px;
+    margin-right: 2%;
+    background-color: #eee;
+  }
+  
+  .search-bar {
+    width: 90%; 
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 7px;
+    background-color: #eee;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    border: none;
+  }
+  
+  .material-icons {
+    padding:2px;
+    font-size: 1rem;
+    
+  }
+  
+  .signin-bskt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign-in {
+    padding: 8px 15px;
+    width: 100%;
+  }
+  
+  .signin-btn {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  .basket {
+    margin-left: 10%;
+    width: 60%;
+  }
+  
+  .basket img {
+    width: 15%;
+  }
+  
+  .first-navigation {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  
+  .first-navigation a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+  }
+  
+  /* main {
+    margin: 2px 60px;
+  } */
+  
+  .box1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-shop_now {
+    background-color: #c3e0d0;
+    font-size: 30px;
+    height: 297px;
+    width: 15%;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .dog-image {
+    height: 295px;
+    width: 35%;
+  }
+  
+  .dog-image img {
+    height: 290px;
+    width: 100%;
+  }
+  
+  .mask-box {
+    margin-left: 1%;
+    text-align: end;
+  }
+  
+  .mask {
+    background-color: #fff;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .mask img {
+    height: 200px;
+    width: 45%;
+  }
+  
+  .text-box {
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    width: 20%;
+    height:193px;
+    text-align: start;
+    font-size: 35px;
+  }
+  
+  /* Common class for arrow svg */
+  
+  .shopnow-arrow img {
+    width: 3%;
+  }
+  
+  .shop-now a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3e0d0;
+    height: 80px;
+    margin-top: 2%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 2%;
+    padding: 0 2.5%;
+    text-align: center;
+  }
+  
+  .feature-box {
+    width: 25%;
+    height: 140Px;
+    padding: 8px;
+  }
+  
+  .feature-box a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .product-heading h3 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 590;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    justify-content: center;
+    margin: 2px 60px;
+  }
+  
+  .products {
+    margin-right: 1.6%;
+    /* background-color: crimson; */
+    width: 214.5px;
+    margin-bottom: 1.2%;
+  }
+  
+  .products img {
+    height:150px;
+    width: 212.5px; 
+  }
+  
+  .products p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .products a {
+   text-decoration: none;
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+  
+  }
+  .product-container .item6 {
+    margin-right: 0px;
+    
+  }
+  
+  abbr[title] {
+    text-decoration: none;
+  }
+
+  .shop-gifts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1700px;
+    /* background-color: magenta; */
+    margin: 5px 60px;
+  }
+
+  .gift-box {
+    width: 13%;
+    /* background-color: maroon; */
+    margin-right: 1%;
+    border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .gift-box a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .houswmng-box {
+    width: 13%;
+    /* background-color: maroon; */
+    border: 1px solid #eee;
+  }
+
+  .houswmng-box a {
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  .houswmng-box img {
+    width: 100%;
+  }
+
+  .gift-box img {
+    width: 100%;
+  }
+
+  .abt-etsy-hdng {
+    background-color: #FDEBD2;
+    padding: 36px;
+    margin-top: 36px;
+  }
+
+  .abt-etsy-hdng h2, .etsy-story{
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .abt-etsy-hdng h2 {
+    font-size: 43px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    opacity: .8;
+  }
+
+  .etsy-story a {
+    color: black;
+    font-size: 16px;
+  }
+
+  .about-etsy {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.6%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .about-box {
+    width: 25%;
+    margin-right: 4%;
+  }
+
+  .about-box h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 100;
+  }
+
+  .about-box p {
+    font-size:20px;
+    text-align: center;
+    line-height: 1.7rem;
+  }
+  
+  .mind-box {
+    width: 25%;
+  }
+
+  .mind-box h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: 100;
+  }
+
+  .mind-box p {
+    font-size:20px;
+    line-height: 1.7rem;
+    text-align: center;
+  }
+
+  .question {
+    text-align: center;
+  }
+
+  .question h4 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+
+  .question a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 26px;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .subscribe {
+    text-align: center;
+    background-color: #D7E6F5;
+  }
+
+  .cloud {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .subscribe-etsy {
+    background-color: #D7E6F5;
+    padding: 40px 10px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .subscribe-etsy img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .subscribe-etsy p {
+    margin-top: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 570;
+    opacity: .8;
+
+  }
+
+  .subscribe-button {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    width: 30%;
+    padding: 8px; 
+  }
+
+  .subscribe-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .subscribe-button input, .subscribe-button button {
+    padding: 8px;
+    font-size:16px;
+    border: none;
+    outline: none;
+  }
+
+  .subscribe-button button {
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 600;  
+  }
+
+  .etsy-final {
+    background-color:#2F466C;
+  }
+
+  .mountain {
+    width: 100%;
+    padding: 0;
+  }
+
+  .etsy-info {
+    background-color:#2F466C;
+    margin-top: 0;
+  }
+
+  .etsy-info ul {
+    margin-top: 0;
+  }
+
+  .etsy-info {
+    display: flex;
+    padding: 25px;
+
+  }
+
+  .info-container {
+    background-color: beige;
+    width: 30%;
+    margin-right: 2%;
+
+  }
+
+  .info-container li {
+    list-style-type: none;
+  }
+
+  .help-container {
+    width: 35%;
+    margin-right: 2%;
+    background-color: beige;
+  }
+
+  .help-container li {
+    list-style-type: none;
+  }
+
+ .e-button {
+   display: flex; 
+   align-items: center;
+ }
+
+  .e-button img {
+    width: 100%;
+  }
+
+ 
+  
+
+
+
+
+
+ 
+
+
+
