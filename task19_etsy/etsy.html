@@ -13,10 +13,8 @@
 <body>
   <header>
     <nav>
-      <div class="main-navigation">
-        <div class="logo">
-          <div><img src="img/mainicon.PNG" alt=""></div>
-        </div>
+      <div class="main-navigation container">
+        <div class="logo"><img src="img/mainicon.PNG" alt=""></div>
         <div class="search-box">
           <div class="search-bar"><input type="search" placeholder="Search for items or shops"></div>
           <div><button class="search-btn"><i class="material-icons">search</i></button></div>
@@ -26,7 +24,26 @@
           <div class="basket"><img src="img/basket.png" alt=""></div>
         </div>
       </div>
-      <div class="first-navigation">
+
+      <!-- Mobile View -->
+
+      <div class="mob-navigation">
+        <div class="nav1">
+          <div><img src="img/mainicon.PNG" class="logo" alt="logo"></div>
+          <div class="menu">
+            <div class="signin-btn"><button>Sign in</button></div>
+            <div class="basket "><img src="img/basket.png" alt=""></div>
+          </div>
+        </div>
+        <div class="nav2">
+          <div class="haburger-menu"><img src="img/menu.png" alt="haburger-menu"></div>
+          <div class="search-box">
+            <div class="search-bar"><input type="search" placeholder="Search for items or shops"></div>
+            <div><button class="search-btn"><i class="material-icons">search</i></button></div>
+          </div>
+        </div>
+
+      <div class="first-navigation container">
         <div><a href="#">Jewellery & Accessories</a></div>
         <div><a href="#">Clothing & Shoes</a></div>
         <div><a href="#">Home & Shoes</a></div>
@@ -38,17 +55,20 @@
     </nav>
   </header>
   <main>
-    <div class="main-wrapper">
+    <div class="main-wrapper container">
       <div class="heading">
         <p>Find things you'll love. Support independent sellers. Only on Etsy.</p>
       </div>
       <div class="box1">
-        <div class="box-shop_now">
-          <p>All sorts of stuff for staying in</p>
-          <p class="shop-now"><a href="#"> Shop now </a><span class="shopnow-arrow"><img src="img/next.svg"
-                alt="next"></span></p>
+        <div class="dog-stuff">
+          <div class="box-shop_now">
+            <p>All sorts of stuff for staying in</p>
+            <p class="shop-now"><a href="#"> Shop now </a><span class="shopnow-arrow"><img src="img/next.svg"
+                  alt="next"></span>
+            </p>
+          </div>
+          <div class="dog-image cmn-height"><img src="img/dog.jpg" alt="dog"></div>
         </div>
-        <div class="dog-image cmn-height"><img src="img/dog.jpg" alt="dog"></div>
         <div class="mask-box">
           <div class="mask"><img src="img/mask1.jpg" alt="mask"></div>
           <div class="text-box">
@@ -60,19 +80,21 @@
         </div>
       </div>
     </div>
-    <section class="features">
-      <div class="feature-box">
-        <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#">Unique Everything</a></h3>
-        <p>We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p>
-      </div>
-      <div class="feature-box">
-        <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#"> Independent Sellers</a>
-        </h3>
-        <p>Buy directly from someone who put their heart and soul into making something special.</p>
-      </div>
-      <div class="feature-box">
-        <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#">Secure Shopping</a></h3>
-        <p>We use best-in-class technology to protect your transactions.</p>
+    <section>
+      <div class="features container">
+        <div class="feature-box">
+          <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#">Unique Everything</a></h3>
+          <p>We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p>
+        </div>
+        <div class="feature-box">
+          <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#"> Independent Sellers</a>
+          </h3>
+          <p>Buy directly from someone who put their heart and soul into making something special.</p>
+        </div>
+        <div class="feature-box">
+          <h3><span class="tick-mark"><img src="img/ticktick.PNG" alt="#"></span> <a href="#">Secure Shopping</a></h3>
+          <p>We use best-in-class technology to protect your transactions.</p>
+        </div>
       </div>
     </section>
 
@@ -81,7 +103,7 @@
       <div class="product-heading">
         <h3>Popular right now</h3>
       </div>
-      <div class="product-container">
+      <div class="product-container container">
         <div class="products item1">
           <div class="image1"><a href="#"><img src="img/deardaddy.jpg" alt=""></a></div>
           <a href=""><abbr
@@ -154,70 +176,76 @@
     <!------------- Section 3 - Shop for gifts --------------->
 
     <section>
-      <div class="shop-gifts">
-        <div class="gift-box gift1">
-          <a href="#"><img src="img/anniversary.jpg" alt="anniversaryGifts"></a>
-          <a href="#">
-            <p>Anniversary gifts</p>
-          </a>
-        </div>
-        <div class="gift-box gift2">
-          <a href="#"><img src="img/giftforhim.jpg" alt="anniversaryGifts"></a>
-          <a href="#">
-            <p>Gifts for him</p>
-          </a>
-        </div>
-        <div class="gift-box gift3">
-          <a href="#"><img src="img/giftfforher.jpg" alt="Gift for her"></a>
-          <a href="#">
-            <p>Personalised gift ideas</p>
-          </a>
-        </div>
-        <div class="gift-box gift4">
-          <a href="#"><img src="img/giftideas.jpg" alt="giftIdeas"></a>
-          <a href="#">
-            <p>Wedding gifts</p>
-          </a>
-        </div>
-        <div class="gift-box gift5">
-          <a href="#"><img src="img/weddingGifts.jpg" alt="Housewarming gifts"></a>
-          <a href="#">
-            <p>Housewarming gifts</p>
-          </a>
-        </div>
-        <div class="houswmng-box gift6">
-          <a href="#"><img src="img/housewarming.jpg" alt="Housewarming gifts"></a>
-          <a href="#">
-            <p>Housewarming gifts</p>
-          </a>
+      <div class="shop-gift container">
+        <h4>Shop for gifts</h4>
+        <div class="shop-gifts">
+          <div class="gift-box gift1">
+            <a href="#"><img src="img/anniversary.jpg" alt="anniversaryGifts"></a>
+            <a href="#">
+              <p>Anniversary gifts</p>
+            </a>
+          </div>
+          <div class="gift-box gift2">
+            <a href="#"><img src="img/giftforhim.jpg" alt="anniversaryGifts"></a>
+            <a href="#">
+              <p>Gifts for him</p>
+            </a>
+          </div>
+          <div class="gift-box gift3">
+            <a href="#"><img src="img/giftfforher.jpg" alt="Gift for her"></a>
+            <a href="#">
+              <p>Personalised gift ideas</p>
+            </a>
+          </div>
+          <div class="gift-box gift4">
+            <a href="#"><img src="img/giftideas.jpg" alt="giftIdeas"></a>
+            <a href="#">
+              <p>Wedding gifts</p>
+            </a>
+          </div>
+          <div class="gift-box gift5">
+            <a href="#"><img src="img/weddingGifts.jpg" alt="Housewarming gifts"></a>
+            <a href="#">
+              <p>Housewarming gifts</p>
+            </a>
+          </div>
+          <div class="houswmng-box gift6">
+            <a href="#"><img src="img/housewarming.jpg" alt="Housewarming gifts"></a>
+            <a href="#">
+              <p>Housewarming gifts</p>
+            </a>
+          </div>
         </div>
       </div>
     </section>
   </main>
   <section class="abt-etsy-hdng">
-    <h2>What is Etsy?</h2>
-    <p class="etsy-story"><a href="#">Read our wonderfully weired story</a></p>
-    <div class="about-etsy">
-      <div class="about-box community">
-        <h3>A one-of-a-kind community</h3>
-        <p>Etsy is a global online marketplace, where people come together to make, sell buy and collect unique items.
-        </p>
+    <div class="container">
+      <h2>What is Etsy?</h2>
+      <p class="etsy-story"><a href="#">Read our wonderfully weired story</a></p>
+      <div class="about-etsy">
+        <div class="about-box community">
+          <h3>A one-of-a-kind community</h3>
+          <p>Etsy is a global online marketplace, where people come together to make, sell buy and collect unique items.
+          </p>
+        </div>
+        <div class="about-box creators">
+          <h3>Support independent creators</h3>
+          <p> There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole
+            process
+            easy, helping you connect directly with makers to find something extraordinary. </p>
+        </div>
+        <div class="mind-box mind">
+          <h3>Peace of mind</h3>
+          <p> Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always
+            ready
+            to step in for support.</p>
+        </div>
       </div>
-      <div class="about-box creators">
-        <h3>Support independent creators</h3>
-        <p> There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process
-          easy, helping you connect directly with makers to find something extraordinary. </p>
+      <div class="question">
+        <h4>Have a Question? Well, we got some answer</h4>
+        <a href="#">Go to Help Center</a>
       </div>
-      <div class="mind-box mind">
-        <h3>Peace of mind</h3>
-        <p> Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always
-          ready
-          to step in for support.</p>
-      </div>
-    </div>
-    <div class="question">
-      <h4>Have a Question? Well, we got some answer</h4>
-      <a href="#">Go to Help Center</a>
     </div>
   </section>
   <section class="subscribe-etsy">
@@ -230,69 +258,71 @@
       </div>
     </div>
   </section>
-  <section class="etsy-final">
-    <img class="mountain" src="img/final-image-for-mountain.PNG" alt="mountain">
-    <div class="etsy-info">
-      <ul class="info-container">
-        <li class="info-header">Shop</li>
-        <li><a href="#"> Gift cards</a></li>
-        <li><a href="#"> Etsy cards </a></li>
-      </ul>
-      <ul class="info-container">
-        <li class="info-header">Sell</li>
-        <li><a href="#">Sell on Etsy</a></li>
-        <li><a href="#">Teams</a></li>
-        <li><a href="#">Forums</a></li>
-        <li><a href="#">Affiliates</a></li>
-      </ul>
-      <ul class="info-container">
-        <li class="info-header">About</li>
-        <li><a href="#">Etsy, inc</a></li>
-        <li><a href="#">Policies</a></li>
-        <li><a href="#">Investors</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Impact</a></li>
-        <li><a href="#">Legal imprint</a></li>
-      </ul>
-      <ul class="help-container">
-        <li class="info-header">Help</li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Help Center</a></li>
-        <li><a href="#">Privacy settings</a></li>
-        <li class="app">
-          <a href="#" class="im"><img src="img/image.png" width="10%" alt="Elogo"></a>
-          <a href=""><span>Download the Etsy App</span></a>
-        </li>
-        <li>
-          <img src="img/instagram.PNG" alt="Instagram">
-          <img src="img/facebook.PNG" alt="Instagram">
-          <img src="img/pinetrest.PNG" alt="Instagram">
-          <img src="img/twitter.PNG" alt="Instagram">
-          <img src="img/youtube.PNG" alt="Instagram">
-        </li>
-      </ul>
+  <section">
+    <div class="etsy-final">
+      <img class="mountain" src="img/final-image-for-mountain.PNG" alt="mountain">
+      <div class="etsy-info container">
+        <ul class="info-container">
+          <li class="info-header">Shop</li>
+          <li><a href="#"> Gift cards</a></li>
+          <li><a href="#"> Etsy cards </a></li>
+        </ul>
+        <ul class="info-container">
+          <li class="info-header">Sell</li>
+          <li><a href="#">Sell on Etsy</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Forums</a></li>
+          <li><a href="#">Affiliates</a></li>
+        </ul>
+        <ul class="info-container">
+          <li class="info-header">About</li>
+          <li><a href="#">Etsy, inc</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Impact</a></li>
+          <li><a href="#">Legal imprint</a></li>
+        </ul>
+        <ul class="help-container">
+          <li class="info-header">Help</li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy settings</a></li>
+          <li class="app">
+            <a href="#" class="im"><img src="img/image.png" width="10%" alt="Elogo"></a>
+            <a href=""><span>Download the Etsy App</span></a>
+          </li>
+          <li>
+            <img src="img/instagram.PNG" alt="Instagram">
+            <img src="img/facebook.PNG" alt="Instagram">
+            <img src="img/pinetrest.PNG" alt="Instagram">
+            <img src="img/twitter.PNG" alt="Instagram">
+            <img src="img/youtube.PNG" alt="Instagram">
+          </li>
+        </ul>
+      </div>
     </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="footer">
-      <div class="country-info">
-        <a href=""><a href=""><i class="large material-icons">public</i></a></a>
-        <a href="">India</a>
-        <a href="">|</a>
-        <a href="">English (UK)</a>
-        <a href="">|</a>
-        <a href="">$ (USD)</a>
+    <footer>
+      <div class="footer">
+        <div class="country-info">
+          <a href=""><a href=""><i class="large material-icons">public</i></a></a>
+          <a href="">India</a>
+          <a href="">|</a>
+          <a href="">English (UK)</a>
+          <a href="">|</a>
+          <a href="">$ (USD)</a>
+        </div>
+        <div class="copyright-info">
+          <li>&#169 Etsy, inc</li>
+          <li><a href=""> Terms of Use</a></li>
+          <li><a href=""> Privacy</a></li>
+          <li><a href=""> Internet-based ads</a></li>
+        </div>
       </div>
-      <div class="copyright-info">
-        <li>&#169 Etsy, inc</li>
-        <li><a href=""> Terms of Use</a></li>
-        <li><a href=""> Privacy</a></li>
-        <li><a href=""> Internet-based ads</a></li>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
