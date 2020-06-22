@@ -12,109 +12,323 @@ header {
   border-bottom: .2em solid #eeee;
 }
 
-.main-navigation {
-  display: none;
-  
-}
 
-.first-navigation {
-  display: none;
-}
-
-.mob-navigation {
-  display: block;
-}
-
-.nav1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.basket {
-  width: 15%;
-  justify-content: flex-end;
-}
-
-.menu img {
-  width: 100%;
-}
-
-.nav2 {
-  display: flex;
-  margin-top: 15px;
-  justify-content: space-between;
-  padding-bottom: 10px;
-}
-
-.haburger-menu {
-  width: 10%;
-}
-
-.nav2 img {
-  width: 100%;
-}
-
-.search-box {
-  display: flex;
-  border: 1px solid #eee;
-  width: 90%;
-  align-items: center;
-  border-radius: 25px;
-  justify-content: flex-start;
-  text-align: end;
-  background-color: #eee;
-}
-  
-.search-bar {
-  width: 90%; 
-}
-  
-.search-bar input {
-  width: 80%;
-  background-color: #eee;
-  border: none;
-  font-size: 16px;
-}
-  
-.search-btn {
-  border: none;
-}
-  
-.material-icons {
-  padding:2px;
-  font-size: 1rem;
+@media screen and (max-width:411px){
+  .main-navigation {
+    display: none;
     
+  }
+  
+  .first-navigation {
+    display: none;
+  }
+  
+  .mob-navigation {
+    display: block;
+    max-width: 411px;
+  }
+  
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .etsy-logo {
+    width: 25%;
+  }
+
+  .etsy-logo img {
+    width: 100%;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .signin-btn button {
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .basket {
+    width: 12%;
+    justify-content: flex-end;
+  }
+  
+  .menu img {
+    width: 100%;
+  }
+
+  .nav2 {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  
+  .haburger-menu {
+    width: 10%;
+  }
+
+  .nav2 img {
+    width: 100%;
+  }
+  
+  .search-box {
+    display: flex;
+    border: 1px solid #eee;
+    width: 90%;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: flex-start;
+    text-align: end;
+    background-color: #eee;
+  }
+    
+  .search-bar {
+    width: 90%; 
+  }
+    
+  .search-bar input {
+    width: 80%;
+    background-color: #eee;
+    border: none;
+    font-size: 16px;
+  }
+    
+  .search-btn {
+    border: none;
+  }
+    
+  .material-icons {
+    padding:2px;
+    font-size: 1rem;
+      
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading p {
+    margin: 2px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+
+  }
+
+  .main-wrapper {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: block;
+  }
+
+  .dog-image {
+    width:100%;
+  }
+
+  .dog-image img {
+    width: 100%;
+  }
+
+  .box-shop_now {
+    background-color: #c3e0d0;
+    text-align: center;
+  }
+
+  .mask-box {
+    margin-left: 1%;
+    text-align: end;
+    width: 98%;
+    position: relative;
+  }
+  
+.mask {
+    background-color: #fff;
+    width: 100%;
+    text-align:end ;
+  }
+  
+.mask img {
+    width: 100%
+  }
+  
+.text-box {
+    position: absolute;
+    top: -1px;
+    left: -4px;
+    text-align: left;
+    width: 200px;
+
+  }
+
+.text-box p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .product {
+    display: none;
+  }
+
+  .mob-product {
+    display: block;
+  }
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .products {
+    width: 160px;
+    align-items: center;
+    margin-bottom: 5px;
+
+  }
+  
+    .products img {
+      width: 100%; 
+    }
+  
+  .products p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .products a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+    
+  .product-container .item6 {
+    margin-right: 0px;
+  }
+  
+  abbr[title] {
+    text-decoration: none;
+  }
+
+  .shop-gifts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .shop-gift h4 {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .gift-box {
+    width: 160px;
+    border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .gift-box a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .houswmng-box {
+    width: 160px;
+    border: 1px solid #eee;
+  }
+  
+  .houswmng-box a {
+    text-decoration: none;
+    color: #000;
+  
+  }
+  
+  .houswmng-box img {
+    width: 100%;
+  }
+  
+  .gift-box img {
+    width: 100%;
+  }
+
+  .etsy-info {
+    background-color:#2F466C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  /* Common style for all elements */
+  .etsy-info ul {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .info-container {
+    padding-left: 44px;
+    width:300px;
+  }
+  
+  /* Common style for all headings */
+ 
+  .footer {
+    background-color: #232347;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  .material-icons {
+    color: #fff;
+    vertical-align: middle;
+  }
+  
+  .country-info li,a, .copyright-info li,a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .copyright-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .country-info li {
+    padding-right: 15px;
+  }
+  
+  .copyright-info li{
+    list-style: none;
+    font-size: .84em;
+  }
+  .copyright-info a {
+    font-size: .84em;
+  } 
+  
+  
+
+ 
+
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   
 /* Common class for arrow svg */
@@ -167,84 +381,6 @@ header {
   font-weight: 590;
 }
 
-.product-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2px 60px;
-  justify-content: space-between;
-}
-
-.products {
-  width: 200px;
-  margin-bottom: 1.2%;
-}
-
-  .products img {
-    height:150px;
-    width: 100%; 
-  }
-
-.products p {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-.products a {
-  text-decoration: none;
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-  
-.product-container .item6 {
-  margin-right: 0px;
-}
-
-abbr[title] {
-  text-decoration: none;
-}
-
-.shop-gifts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.shop-gift h4 {
-  font-size: 1.3em;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 5px;
-}
-
-.gift-box {
-  width: 200px;
-  border: 1px solid #eee;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-.gift-box a {
-  text-decoration: none;
-  color: #000;
-}
-
-.houswmng-box {
-  width: 200px;
-  border: 1px solid #eee;
-}
-
-.houswmng-box a {
-  text-decoration: none;
-  color: #000;
-
-}
-
-.houswmng-box img {
-  width: 100%;
-}
-
-.gift-box img {
-  width: 100%;
-}
 
 .abt-etsy-hdng {
   background-color: #FDEBD2;
@@ -421,7 +557,7 @@ abbr[title] {
 }
 
 .info-container {
-  padding-left: 0;
+  padding-left: 44px;
   width:300px;
 }
 
@@ -520,6 +656,14 @@ abbr[title] {
 
 @media screen and (min-width:768px) { 
   .mob-navigation {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: none;
+  }
+
+  .mob-product {
     display: none;
   }
 
@@ -625,7 +769,7 @@ abbr[title] {
     font-size: 32px;
   }
     
-.box1 {
+  .box1 {
     display: flex;
     flex-wrap: wrap;
     margin-right: 0;
@@ -691,7 +835,88 @@ abbr[title] {
     font-weight: 600;
   }
 
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px 60px;
+    justify-content: space-between;
+  }
+  
+  .products {
+    width: 200px;
+    margin-bottom: 1.2%;
+  }
+  
+    .products img {
+      height:150px;
+      width: 100%; 
+    }
+  
+  .products p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .products a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+    
+  .product-container .item6 {
+    margin-right: 0px;
+  }
+  
+  abbr[title] {
+    text-decoration: none;
+  }
+
+  .shop-gifts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .shop-gift h4 {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .gift-box {
+    width: 200px;
+    border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .gift-box a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .houswmng-box {
+    width: 200px;
+    border: 1px solid #eee;
+  }
+  
+  .houswmng-box a {
+    text-decoration: none;
+    color: #000;
+  
+  }
+  
+  .houswmng-box img {
+    width: 100%;
+  }
+  
+  .gift-box img {
+    width: 100%;
+  }
+
 }
+
+
 
   
 
