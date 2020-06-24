@@ -19,6 +19,7 @@
     .container {
         width: 75%;
         margin: 0 auto;
+        padding: 35px;
     }
 
     .main-navbar {
@@ -97,36 +98,83 @@
         font-weight: 600;
     }
 
-    .sec-nav {
-        text-align: center;
-        margin-bottom: 2px;
-    }
+   .logo-container {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 10px;
+   }
 
     .search-bar {
+        width: 100%;
         background-color: #fff;
+        margin: 0;
     }
 
     .search-bar input {
-        background-color:coral;
         padding: 11px;
-        width: 40%;
+        width: 35%;
         border: none;
     }
 
-    .search-bar span {
+    .find, .near {
         background: #fff;
         padding: 11.5px;
     }
 
     .search-button {
-        background-color: #d32323;
-        padding: 12px;
+        background-color: #fff
+        padding: 1%;
+        display: inline-block;
     }
 
     .material-icons {
         color: #fff;
         vertical-align: middle;
         
+    }
+
+    .categories {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .categories li {
+        display: flex;
+        align-items: center;
+        margin: 8px;
+    }
+
+    .categories a {
+        color: #fff;
+        font-size: .9em;
+        font-weight: 600;
+    }
+
+    .yelp-support {
+        text-align: center;
+    }
+
+    .yelp-support h3, p, a {
+        color: #fff;
+    }
+
+    .yelp-support h3 {
+        font-size: .9em;
+        margin-bottom: 5px;
+    }
+
+    .yelp-support p {
+        font-size: .9em;
+        line-height: 1.3em;
+    }
+
+    .yelp-support a {
+        display: block;
+        font-size: .9em;
+        font-weight: 600;
+        margin-top: 12px;
+        text-decoration: underline;
     }
 
 
