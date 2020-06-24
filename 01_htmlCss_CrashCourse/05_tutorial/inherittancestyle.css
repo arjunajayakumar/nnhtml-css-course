@@ -1,0 +1,15 @@
+div {
+  color:lightcoral;
+  border: 1px solid gray;
+  margin: 40px;
+  font-weight: bolder;
+  }
+  
+  p {
+    border: inherit;
+    margin: inherit;
+  }
+
+  div.p {
+    color: tomato;
+  }
