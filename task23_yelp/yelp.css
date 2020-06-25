@@ -178,7 +178,7 @@
         text-align: center;
     }
 
-    .yelp-support h3, p, a {
+    .yelp-support h3, .yelp-support p, .yelp-support a {
         color: #fff;
     }
 
@@ -362,6 +362,13 @@
         color: #F15C00;
         font-size: .9em;
 
+    }
+
+    .more-business {
+        text-align: center;
+        color: black;
+        font-size: .9em;
+        background-color: #0073BB;
     }
 
 }
