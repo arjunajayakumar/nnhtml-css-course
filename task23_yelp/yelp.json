@@ -1,0 +1,27 @@
+[
+    {   
+        "id":"reviewBox1",
+        "rating":4.5,
+        "opened":7,
+        "review":8
+    },
+
+    {   
+        "id":"reviewBox2",
+        "rating":3.5,
+        "opened":9,
+        "review":99
+    },
+
+    {   
+        "id":"reviewBox3",
+        "rating":1.5,
+        "opened":11,
+        "review":77
+    }
+
+
+]
+    
+
+ 

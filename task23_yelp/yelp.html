@@ -83,79 +83,98 @@
             <li><a href="">Palo Alto</a></li>
             <li><a href="">Oakland</a></li>
             <li>
-                <div  class="search-cities">
+                <div class="search-cities">
                     <a href=""><i class="material-icons search-icon">search</i></a>
                     <a href="">More Cities</a>
                 </div>
-            </li>       
+            </li>
         </ul>
         <div class="secondary-content">
             <h3>Hot and New Businesses</h3>
             <div class="product-container">
-                <div class="products">
-                    <img src="img/LeMoonThaiEntry.jpg" alt="">
+                <div class="products margin-rt" id='clickContainer1'>
+                    <img src="img/LeMoonThaiEntry.jpg" alt="" id="image1" onclick="imageclick('clickContainer1')">
                     <p class="heading">Le Moon Thai Eatery</p>
-                    <div class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                    <div class="star" id="reviewBox1">
                         <span class="fa fa-star unchecked"></span>
-                        <span>6 reviews</span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
                     </div>
                     <p class="type">Thai</p>
                     <p class="type">Marina/Cow Hollow</p>
-            
+
                     <div>
                         <span><i class="fa fa-fire"></i></span>
-                        <span class="fire-text">Opened 6 weeks ago</span>
                     </div>
                 </div>
-            
-                <div class="products">
-                    <img src="img/1011sipTea.jpg" alt="">
+
+                <div class="products margin-rt" id="clickContainer2">
+                    <img src="img/1011sipTea.jpg" alt=""id="image2" onclick="imageclick('clickContainer2')">></a>
                     <p class="heading">1011 Sip tea</p>
-                    <div class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                    <div class="star" id="reviewBox2">
                         <span class="fa fa-star unchecked"></span>
-                        <span>8 reviews</span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
                     </div>
                     <p class="type">Bubble Tea, Coffee & Tea</p>
                     <p class="type">Outer Sunset</p>
-            
+
                     <div>
                         <span><i class="fa fa-fire"></i></span>
-                        <span class="fire-text">Opened a few days ago</span>
                     </div>
                 </div>
-                <div class="products">
-                    <img src="img/godHarvest.jpg" alt="">
+                <div class="products" id="clickContainer3">
+                    <img src="img/godHarvest.jpg" alt="" id="image3" onclick="imageclick('clickContainer3')">
                     <p class="heading">Got Harvest</p>
-                    <div class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                    <div class="star" id="reviewBox3">
                         <span class="fa fa-star unchecked"></span>
-                        <span>8 reviews</span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
                     </div>
                     <p class="type">CSA</p>
                     <p class="type">Bayview-Hunters Point</p>
-                    <div>
+                    <div id="activity">
                         <span><i class="fa fa-fire"></i></span>
-                        <span class="fire-text">Opened a few days ago</span>
                     </div>
                 </div>
             </div>
             <p class="more-business"><a href="">See more hot and new businesses</a></p>
         </div>
 
-    
-    </div>
+        <div class="local-yelp">
+            <div class="local-yelp-container">
+                <div class="coffee-box">
+                    <h3>The Local Yelp</h3>
+                    <div class="image-box">
+                        <a href="#"><img src="img/coffee.jpg" alt="Coffee"></a>
+                        <h4>Coffee? Coffee ☕</h4>
+                        <p>Has the concept and measurement of a day, time, months lost meaning? Yeah, us too. Time to
+                            order a coffee. <a href="#">Here’s a Collection of great local coffee shops</a> open and
+                            ready to connect you with your
+                            caffeine.</p>
+                        <p class="local">The Local Yelp</p>
+                    </div>
+                </div>
+                <div class="yelp-event">
+                    <h3>Official Yelp Event</h3>
+                    <div class="image-box">
+                        <a href=""><img src="img/virtualimage.jpg" alt="Event"></a>
+                        <h4>Virtual Yelp Event: HIIT Happens...</h4>
+                        <p>If all this Sheltering-in-Place has added some unwanted pounds, then you'll want...</p>
+                        <p class="date">Sat, Jun 27, 10:00 am -10:30 am</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <script src="yelp.js"></script>
 </body>
 
 </html>
