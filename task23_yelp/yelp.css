@@ -462,14 +462,17 @@
         color: #bdbdbd;
     }
 
-    .brittany-box {
-        width: 628px;
-        border: 1px solid #bdbdbd;
-        padding: 10px;
-        margin: 0;
+    .rvw-box {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
     }
 
-    .brittany{
+    .rvw {
+        width: 680px;
+    }
+
+    .brittany {
         display: flex;
         align-items: center;
     }
@@ -519,8 +522,12 @@
         color: #d32323;
         text-align: center;
         padding-bottom: 1em;
-        width: 629px;
         margin:0
+    }
+
+    .recent-collection {
+        width: 300px;
+        margin-left: 2em;
     }
 
 
