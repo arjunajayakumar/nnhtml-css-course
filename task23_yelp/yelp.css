@@ -116,13 +116,23 @@
 
     .services {
         background-color: #fff;
-        margin: 15px 0 0 0; 
+        margin: 15px 0 0 0;
     }
 
     .open-btn {
         width: 100%;
         text-align: center;
         padding: 10px 0;
+        background-color:#0073BB;
+        color: #fff;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 15px;
+        cursor: pointer;
     }
 
     .services h3 {
@@ -152,6 +162,10 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         padding: 5px;
+    }
+
+    .app-yelp {
+        border-bottom: 1px solid #bdbdbd;
     }
 
     .new-busns-container {
@@ -210,6 +224,14 @@
         background-color:#bdbdbd; ;
     }
 
+    .star-rating .checkedr {
+        background-color: #d32323;
+    }
+
+    .star-rating .checkedH {
+        background: linear-gradient(80deg, #fa8e13 50%, #bdbdbd 50%);
+    }
+
     .fa-star {
         color:#fff;
         padding: 1px;
@@ -217,13 +239,79 @@
         opacity: .8;
     }
 
+    .fa-star-half-o {
+        color:#fff;
+
+    }
+
     .unchecked {
         color:#fff;
+    }
+
+    .view-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: rgb(248, 248, 248);
+        color: rgb(76, 71, 71);
+        border: 1px solid #bdbdbd;
+        margin: 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .footer-lang h2 {
+        font-size: 17px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer-lang p {
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0073BB;
+    }
+
+    .yelp-list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .yelp-list li a {
+        font-size: 14px;
+        color:#0073BB ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .copyright p {
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        padding: 5px 0 0 0;
     }
 
 }
 
 @media (min-width:700px) {
+
+    .m-header {
+        display: none;
+    }
+
+    .m-container {
+        display: none;
+    }
+
     body {
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
         overflow-x: hidden;
@@ -639,9 +727,7 @@
         padding-right: .8em;
     }
 
-  
-
-    .local{
+    .local {
         color: #bdbdbd;
     }
     
@@ -1025,4 +1111,3 @@
     }
 
 }
-
