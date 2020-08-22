@@ -1,0 +1,1113 @@
+@media (max-width:600px) {
+    .container {
+        display: none;
+    }
+
+    .main-navbar {
+        display: none;
+    }
+
+    .locations {
+        display: none;
+    }
+
+    .local-yelp {
+        display: none;
+    }
+
+    .rvw-box {
+        display: none;
+    }
+
+    .recent-collection {
+        display: none;
+    }
+
+    .recent-container {
+        display: none;
+    }
+
+    .category-container {
+        display: none;
+    }
+
+    .mobile-container {
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    .yelp-hq {
+        display: none;
+    }
+
+    .m-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d32323;
+        padding: 10px 10px;
+    }
+
+    .app-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        background-color: #bb0b0b;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .app-btn span {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .search-btn {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-btn {
+        background-color: transparent;
+        border: none;
+        color: rgb(253, 245, 245);
+        cursor: pointer;
+    }
+
+    .m-container {
+        background-color: rgb(248, 248, 248);
+        margin: 0 10px;
+    }
+
+    .m-category {
+        background-color: #fff;
+    }
+
+    .first-category {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .first-category div {
+        text-align: center;
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .first-category p {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .services {
+        background-color: #fff;
+        margin: 15px 0 0 0;
+    }
+
+    .open-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background-color:#0073BB;
+        color: #fff;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .services h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .scrolling-images {
+        display: flex;
+        position: relative;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrolling-images img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin: 10px;
+    }
+
+    .scrolling-images > div > p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .app-yelp {
+        border-bottom: 1px solid #bdbdbd;
+    }
+
+    .new-busns-container {
+        background-color: #fff;
+    }
+
+    .new-busns {
+        display: flex;
+        padding: 8px;
+        border-bottom: 1px solid #bdbdbd;
+    }
+
+    .new-busns img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 80px;
+        height: 80px;
+        margin: 0 10px 0 0;
+    }
+
+    .new-busns h2 {
+        font-size: 18px;
+        color:#0073BB;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    .star-rating {
+        padding: 0 0 5px 5px;
+    }
+
+    .star-rating a {
+        font-size: 14px;
+        opacity: .7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+
+    .star-rating p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        padding: 10px 0;
+        color:#0073BB;
+
+    }
+
+    .star-rating .checked {
+        background-color:#fa8e13;
+    }
+
+    .star-rating .unchecked {
+        background-color:#bdbdbd; ;
+    }
+
+    .star-rating .checkedr {
+        background-color: #d32323;
+    }
+
+    .star-rating .checkedH {
+        background: linear-gradient(80deg, #fa8e13 50%, #bdbdbd 50%);
+    }
+
+    .fa-star {
+        color:#fff;
+        padding: 1px;
+        border-radius: 2px;
+        opacity: .8;
+    }
+
+    .fa-star-half-o {
+        color:#fff;
+
+    }
+
+    .unchecked {
+        color:#fff;
+    }
+
+    .view-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: rgb(248, 248, 248);
+        color: rgb(76, 71, 71);
+        border: 1px solid #bdbdbd;
+        margin: 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .footer-lang h2 {
+        font-size: 17px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer-lang p {
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0073BB;
+    }
+
+    .yelp-list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .yelp-list li a {
+        font-size: 14px;
+        color:#0073BB ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .copyright p {
+        font-size: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        padding: 5px 0 0 0;
+    }
+
+}
+
+@media (min-width:700px) {
+
+    .m-header {
+        display: none;
+    }
+
+    .m-container {
+        display: none;
+    }
+
+    body {
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        overflow-x: hidden;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    header {
+        background: #000;
+    }
+    
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 35px;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        justify-content: space-around;   
+    }
+
+    .main-nav a {
+        display: block;
+        margin-right: 15px;
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+    }
+
+
+    /* Transition effets */
+
+    .main-nav a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+    .main-nav a:hover:after {
+        width: 83%; 
+        left: 0;
+    }
+
+    /* transition end */
+
+    .main-nav li {
+        position: relative; 
+    }
+
+    .login-signup {
+        display: flex;
+        align-items: center;
+    }
+
+    .login {
+        border: none;
+        background-color: #000;
+        margin-right: 15px;
+    }
+       
+    .login a {
+        color: #fff;
+        font-size: .9em;
+        font-weight: 600;
+    }
+    
+    .sign-up {
+        padding: 6px 10px;
+        background-color: #000;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+
+    .sign-up a {
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+    }
+
+   .logo-container {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 10px;
+   }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .search-bar input {
+        padding: 8px;
+        width: 42.5%;
+        outline:none;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .primary-search {
+        border-bottom: 0;
+        border-top: 0;
+        border-left: 0;
+        border-right: 3px solid #bdbdbd;
+    }
+
+    .secondary-search {
+        border: none;
+    }
+
+    .find, .near {
+        background: #fff;
+        padding: 11.5px;
+        font-weight: 600;
+        opacity: .7;
+        border-radius: 10px;
+    }
+
+    .search-button {
+        background-color:#d32323;
+        padding: 1%;
+        display: inline-block;
+        border-radius:0 10px 10px 0 ;
+    }
+
+    .material-icons {
+        color: #fff;
+        vertical-align: middle;
+        padding: 4px;    
+    }
+
+    .categories {
+        display: flex;
+        justify-content: center;   
+    }
+
+    .categories li {
+        display: flex;
+        align-items: center;
+        margin: 8px;
+    }
+
+    .categories a {
+        color: #fff;
+        font-size: .9em;
+        font-weight: 600;
+    }
+
+    .yelp-support {
+        text-align: center;
+    }
+
+    .yelp-support h3, .yelp-support p, .yelp-support a {
+        color: #fff;
+    }
+
+    .yelp-support h3 {
+        font-size: .9em;
+        margin-bottom: 5px;
+    }
+
+    .yelp-support p {
+        font-size: .9em;
+        line-height: 1.3em;
+    }
+
+    .yelp-support a {
+        display: block;
+        font-size: .9em;
+        font-weight: 600;
+        margin-top: 12px;
+        text-decoration: underline;
+    }
+
+    main {
+        background-color: #EEEEEE;
+    }
+
+    .container h2 {
+        text-align: center;
+        color: #d32323;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .primary-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .businesses {
+        border: 1px solid #eee;
+        background-color: #fff;
+        width: fit-content;
+        padding: 0;
+    }
+
+    .businesses:hover {
+        box-shadow: 0 15px 15px 8px #e0e0e0;
+    }
+
+
+    .businesses img {
+        width: 100%;
+    }
+
+    .businesses p {
+        color: #000;
+        text-align: center;
+        font-size: .9em;
+        font-weight: 600;
+        padding: 8px;
+    }
+
+
+    .regions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #eee;
+    }
+
+    .regions a {
+        color: black;
+        display: block;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: .9em;
+        opacity: .8;
+        padding-bottom: .5em;
+    } 
+
+    .search-cities {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .search-cities a {
+        padding: 0;
+    }
+
+    .search-icon {
+        color: black;
+    }
+
+        /* Transition effets */
+
+    .regions a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d32323;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+    .regions a:hover:after {
+        width: 100%; 
+        left: 0;
+    }
+
+    .regions li {
+        position: relative;
+    }
+    
+    /* transition end */
+
+    .secondary-content h3 {
+        font-weight: .8em;
+        color:#d32323;
+        text-align: center;
+    }
+
+    .product-container {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        /* justify-content: space-between; */
+    }
+
+    .products {
+        margin: 0 1.5em;
+        margin-top: .7em;
+        width: 300px;
+        border: 1px solid #bddbbd;
+    }
+
+    .type {
+        color:#000;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        font-size: .9em;
+    }
+
+    .heading {
+        color:#0073BB;
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+
+    .products img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .star {
+        padding-bottom: 8px;
+        padding-left: 10px;
+    }
+
+    .fa-star {
+        color:#d32323;
+        padding: 2px;
+        border-radius: 2px;
+        opacity: .8;
+    }
+
+    .unchecked {
+        color: #bdbdbd;
+      
+    }
+
+    .fa-fire {
+        color: #F15C00;
+        opacity: .8;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fire-text {
+        color: #F15C00;
+        font-size: .9em;
+    }
+
+    .more-business  {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .more-business a {
+        color: #0073BB;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .coffee-box h3 {
+        font-size: 1em;
+        color: #d32323;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .local-yelp {
+        width: 1000px;
+        margin: 0 auto;
+        /* background-color: orangered; */
+    } 
+
+    .local-yelp-container {
+        padding: 15px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-box {
+        border: 1px solid #bdbdbd;
+    }
+
+    .image-box h4 {
+        font-size: 1em;
+        color:#0073BB;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-left: .8em;
+        padding-right: .8em;
+    }
+
+    .image-box p {
+        font-size: .9em;
+        text-align: justify;
+    }
+
+    .image-box a {
+        color:#0073BB; 
+    }
+
+    .image-box p {
+        padding-bottom: .8em;
+        padding-left: .8em;
+        padding-right: .8em;
+    }
+
+    .local {
+        color: #bdbdbd;
+    }
+    
+    .coffee-box {
+        min-width: 500px;
+        /* background-color: #d32323; */
+    }
+
+    .coffee-box img {
+        width: 100%;
+        height: 225px;
+    }
+
+    .yelp-event {
+        min-width: width 300px;
+        margin-left: 3em;
+        height: 100%;
+        /* background-color: #d32323; */
+    }
+
+    .yelp-event h3 {
+        font-size: 1em;
+        color: #d32323;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .yelp-event h4 {
+        color:#0073BB;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 1em;
+    }
+
+    .yelp-event img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .date {
+        color: #bdbdbd;
+    }
+
+    .rvw-box {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .rvw {
+        width: 680px;
+        height: 100%;
+    }
+
+    .brittany-box {
+        border: 1px solid #bdbdbd;
+        padding: 10px;
+        height: 260px;
+        min-width: 500px;
+    }
+
+    .brittany {
+        display: flex;
+        align-items: center;
+    }
+
+    .brit-img {
+        margin-right: 15px;
+        height: auto;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        width: 65px;
+    }
+
+    .details span {
+        font-size: 14px;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .review-day {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .review-day p {
+        background-color: #D0ECFB;
+        width: 100%;
+        margin-top: 10px;
+        padding: 4px 0;
+    }
+
+    .review-day img {
+        position: absolute;
+        right: 0;
+    }
+
+    .detailed-info {
+        padding-top: 10px;
+        padding-left: 0;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .review-heading  {
+        font-size: 1em;
+        color: #d32323;
+        text-align: center;
+        padding-bottom: 1em;
+        margin:0;
+    }
+
+    .review-heading {
+        display: flex;
+        justify-content: center;
+    }
+
+    .recent-collection {
+        width: 280px;
+        border: 1px solid #bdbdbd;
+        padding: 10px;
+    }
+
+    .recent-image {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .recent-image img {
+        width: 65px;
+        height: 65px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        margin-right: 10px;
+    }
+
+    .recent-details h3 {
+        font-size: 15px;
+        color:#0073BB;
+        margin: 0 0 10px 0; 
+    }
+
+    .recent-details span {
+        font-size: 13px;
+        color: #000;
+        opacity: .7;
+        font-weight: 300;
+    }
+
+    .recent-details p {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+
+    .recent-container {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+
+    .recent-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .helen {
+        display: flex;
+        border-bottom: 1px solid #bdbdbd ;
+        padding: 10px;
+        width: 270px;
+        margin: 0 0 0 5px;
+    }
+
+    .helen-box {
+        width: 300px;
+        border: 1px solid #bdbdbd;
+    }
+
+    .helen img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .helen-details h3 {
+        font-size: 15px;
+        color:#0073BB;
+        margin: 0 0 5px 0;
+    }
+
+    .helen-details p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .helen-heading {
+        color: #0073BB;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .chalos-img {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .chalos-img img {
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        width: 280px;
+        height: 150px;
+    }
+
+    .image-container {
+        display: flex;
+        padding: 10px;
+        padding-top: 0;
+        justify-content: space-between;
+    }
+
+    .image-container div {
+        border: 1px solid #bdbdbd;
+    }
+
+    .image-container img {
+        width: 120px;
+    }
+
+    .star-rating5 {
+        padding: 10px;
+    }
+
+    .reaction {
+        margin: 0;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .star-rating5 .fa-star {
+        background-color: #d32323;
+        color: #fff;
+    }
+
+    .category-container {
+        margin: 0 auto;
+        background-color: #eee;
+        padding: 30px 20px;
+    }
+
+    .browse-business {
+        text-align: center;
+        color: #d32323;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+
+    .category-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .category a {
+        background-color: #fff;
+        width: 200px;
+        height: 150px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .category a:hover {
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border: 1px solid #0073BB;
+    }
+
+    .category h3 {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .mobile-container {
+        margin: 0 auto;
+    }
+
+    .mobileapp-container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 0 0;
+    }
+
+    .mobile-app {
+        width: 450px;
+        border: 1px solid #bdbdbd;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .mobile-app p {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .mobile-app:hover {
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border: 1px solid #0073BB;
+        cursor: pointer;
+    }
+
+    .footer-container {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .yelp-detail {
+        padding: 0;
+    }
+
+    .yelp-detail h3 {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #d32323;
+    }
+
+    .yelp-detail li {
+        padding: 4px;
+
+    }
+
+    .yelp-detail li a {
+        font-size: 15px;
+        color:#0073BB;
+        font-weight: 500;
+    }
+
+    .yelp-detail li a:hover {
+        text-decoration: underline;
+    }
+
+    .yelp-hq {
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .yelp-hq p {
+        font-size: 13px;
+        color: #000;
+        opacity: .7;
+        margin: 10px 0 0 0;
+    }
+
+    .yelp-hq span {
+        vertical-align: middle;
+    }
+
+}
