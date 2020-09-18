@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
         a {
             color: #333;
             text-decoration: none;
         }
+
+        a:hover {
+            color: coral;
+        }
+
+        .btn {
+            background:#4c6ca0;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            color: #f4f4f4;
+            background-color: #446190;
+        }
+/* 
+        a:visited {
+            color: crimson; */
+        /* } */
+
+        a:active {
+            color: darkblue;
+        }
+        
     </style>
+  
 </head>
 <body>
-    <a href="#">Click Here</a>
+    <a href="#" class="btn">My link</a>
+    <br>
+    <br>
+    <button class="btn">My button</button>
 </body>
 </html>
