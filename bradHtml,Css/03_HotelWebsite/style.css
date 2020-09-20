@@ -22,6 +22,13 @@ p {
     margin: 10px 0;
 }
 
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding:0 20px;
+}
+
 #navbar {
     background:#333;
     color: #fff;
@@ -51,3 +58,10 @@ p {
     padding:20px;
     text-align: center;
 }
+
+#navbar ul li:hover, 
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+}
+
