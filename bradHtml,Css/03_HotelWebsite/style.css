@@ -62,7 +62,7 @@ p {
     color: #fff;
 }
 
-.bg-lite {
+.bg-light {
     background:#f4f4f4;
     color: #333;
 }
@@ -168,11 +168,19 @@ p {
     margin-bottom: 10px;
 }
 
+/* About info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+
 /* Footer */
 #main-footer {
     text-align: center;
     background: #444;
     color: #fff;
     padding: 20px;
-
 }
+
