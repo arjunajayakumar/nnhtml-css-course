@@ -30,18 +30,53 @@
 
         }
 
-            /* Tablet*/
-            @media(max-width:500px) {
+        /* Tablet*/
+        @media (min-width:501px) and (max-width:768px) {
             body {
-                background: red;
+                background: blue;
             }
 
-            #smartphone h1 {
+            #tablet h1 {
+                display: block;
+            }
+
+        }
+
+        /* Normal*/
+        @media (min-width:769px) and (max-width:1200px) {
+            body {
+                background: green;
+            }
+
+            #normal h1 {
+                display: block;
+            }
+        }
+
+        /* Widescreen*/
+        @media (min-width:1201px) {
+            body {
+                background: black;
+            }
+
+            #normal h1 {
+                display: block;
+            }
+        }
+
+        /*Landscape*/
+        @media (max-height:500px) {
+            body {
+                background: orange;
+            }
+
+            #landscape h1 {
                 display: block;
             }
 
         }
     </style>
+    <!-- <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css"> -->
 </head>
 
 <body>
