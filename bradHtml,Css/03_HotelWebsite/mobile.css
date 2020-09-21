@@ -12,6 +12,12 @@
     border-bottom: #444 dotted 1px;
 }
 
+/* Shoecase */
+#showcase .showcase-content{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 /* Home info */
 
 #home-info {
@@ -20,4 +26,37 @@
 
 #home-info .info-img {
     display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About */
+#about-info .info-right, 
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+.l-heading {
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
 }
