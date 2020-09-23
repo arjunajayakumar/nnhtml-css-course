@@ -143,3 +143,7 @@
     max-width: 25%;
     padding: 0 4px;
 }
+
+.team img {
+    border-radius: 50%;
+}
