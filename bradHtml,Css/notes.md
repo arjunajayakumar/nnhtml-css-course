@@ -196,3 +196,44 @@ h1 {
     }   
 }
 ```
+###### eg with percentage value
+```
+.box {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: animate1 5s forwards ease-in-out;
+}
+
+@keyframes animate1 {
+25% {
+    top: 0;
+    left: 300px;
+    background-color: red;
+    border-radius: 50% 0 0 0;
+}
+
+50% {
+    top: 300px;
+    left: 300px;
+    background-color: green;
+    border-radius: 50% 0 0 0;
+}
+
+75% {
+    top: 300px;
+    left: 0;
+    background-color: blue;
+    border-radius: 50% 0 0 0;
+}
+
+100% {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 50%;
+}
+```
