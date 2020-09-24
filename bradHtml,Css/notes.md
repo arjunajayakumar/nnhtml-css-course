@@ -110,3 +110,30 @@ header:before {
     z-index: -1;
 }
 ```  
+##### Box shadows
+```
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background: coral;
+    color: #fff;
+    
+    /* offset-x | offset-y | color */
+    box-shadow: 10px 10px teal;
+
+    /* offset-x | offset-y | blur-radius */
+    box-shadow: 5px 5px 20px teal;
+
+    /* Negative values */
+    box-shadow: -5px -5px 20px teal;
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+
+    /* Inset | offset-x | offset-y | color */
+    box-shadow: inset -3px -3px teal;
+
+    /* Multiple shadow */
+    box-shadow: 3px 3px teal, -3px -3px 10px olive;
+}
+```
