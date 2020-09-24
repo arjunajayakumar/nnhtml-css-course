@@ -166,3 +166,33 @@ h1 {
         text-shadow:-0.4rem -0.3rem 0.7rem steelblue ;
 }
 ```
+
+#### Keyframes
+```
+.box {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation-name: animate1;
+    animation-duration:5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+    animation: animate1 5s forwards 1s ease-in-out;
+}
+
+@keyframes animate1 {
+    from {
+        top: 0;
+    }
+
+    to {
+        width: 600px;
+        background-color: brown;
+        top: 300px;
+    }   
+}
+```
