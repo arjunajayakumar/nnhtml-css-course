@@ -117,7 +117,7 @@ header:before {
     margin: 1rem;
     background: coral;
     color: #fff;
-    
+
     /* offset-x | offset-y | color */
     box-shadow: 10px 10px teal;
 
@@ -135,5 +135,34 @@ header:before {
 
     /* Multiple shadow */
     box-shadow: 3px 3px teal, -3px -3px 10px olive;
+}
+```
+
+#### Text shadow
+```
+h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4rem;
+    }
+
+    h1.a {
+        /* h-shadow | v-shadow | color */
+        text-shadow: 0.2rem 0.2rem steelblue;
+    }
+
+    h1.b {
+        /* h-shadow | v-shadow | blur | color */
+        text-shadow:0.4rem 0.3rem 0.7rem steelblue ;
+    }
+
+    h1.c {
+        /* White Text */
+        color: #fff;
+        text-shadow:0.2rem 0.2rem 1rem steelblue ;
+    }
+
+    h1.d {
+        /* Negative values */
+        text-shadow:-0.4rem -0.3rem 0.7rem steelblue ;
 }
 ```
