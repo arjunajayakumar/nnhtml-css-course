@@ -73,4 +73,40 @@ li:nth-child(odd) {
 li:nth-child(even) {
     background-color: #ddd;
 }
-```        
+``` 
+
+#### Before & After
+##### After
+```
+* adding content after an element
+
+.is-required:after {
+    content: '*';
+    color: red;
+    padding-left: 2px;
+}
+```    
+##### Before
+```
+* adding content before an element
+
+.is-required:before {
+    content: '#';
+    color: orchid;
+    padding-right: 2px;
+}
+```  
+###### ovreley eg using before
+```
+header:before {
+    content: '';
+    background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+```  
