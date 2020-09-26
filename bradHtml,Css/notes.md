@@ -282,8 +282,37 @@ h1 {
 * In grid there is a new unit called fraction(fr)
 * User grid for outer elements and grid-like layouts
 * use flex for simple alignment (inner elements, menu items, etc)
-* Syntax:
+##### Syntax:
 ```
-display: grid          - creates a grid
-grid-template-coloumns - defines width and number of coloumns
+* display: grid          - creates a grid
+* grid-template-coloumns - defines width & number of coloumns
+* grid-template-rows     - defines width & number of rows
+* grid-auto-rows         - setting auto width  for other rows
+* grid-gap               - setting space between grids        
+
 ```
+
+##### examples:
+###### 1. basic setup
+```
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto 200px; - setting 200px width for 1st and 3rd element and auto width for 2nd element
+    grid-template-columns: auto auto auto;   - setting auto width for all elements 
+    grid-template-columns: repeat(3, auto);  - setting all the 3 elelemnts auto width
+    grid-template-columns: 1fr 2fr 2fr;      - setting elements a fractional width
+    grid-gap: 1rem;                          - settng gap between grid elements   
+}
+
+```
+###### 2. Two dimensional setup
+```
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);  - Setting 2 coloumn with 1fr width
+    grid-template-rows: 2fr 1fr;            - Setting rows with 2fr & 1fr width
+    grid-auto-rows: 2fr;                    - setting remaining row elements 2 fr width
+    grid-gap: 1rem;
+}
+```
+
