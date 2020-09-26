@@ -271,3 +271,19 @@ h1 {
 * width 
 * word-spacing 
 * z-index 
+
+
+#### CSS Grid Layout
+* Similar to flexbox
+* Two-dimensional layouts
+* can use "align-items", "justify-content", etc
+* All direct child elements are "grid items"
+* flex is one dimensional where as grid is two dimensional
+* In grid there is a new unit called fraction(fr)
+* User grid for outer elements and grid-like layouts
+* use flex for simple alignment (inner elements, menu items, etc)
+* Syntax:
+```
+display: grid          - creates a grid
+grid-template-coloumns - defines width and number of coloumns
+```
