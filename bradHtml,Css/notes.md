@@ -273,7 +273,7 @@ h1 {
 * z-index 
 
 
-#### CSS Grid Layout
+## CSS Grid Layout
 * Similar to flexbox
 * Two-dimensional layouts
 * can use "align-items", "justify-content", etc
@@ -291,9 +291,8 @@ h1 {
 * grid-gap               - setting space between grids        
 
 ```
-
-##### examples:
-###### 1. basic setup
+### Grid Columns
+##### example:
 ```
 .grid {
     display: grid;
@@ -305,7 +304,18 @@ h1 {
 }
 
 ```
-###### 2. Two dimensional setup
+### Grid Rows
+#### example:
+```
+.grid {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-auto-rows: 2fr;
+    grid-gap: 1rem;
+}
+```
+
+### Two dimensional setup (Grid with rows and columns)
 ```
 .grid {
     display: grid;
@@ -315,4 +325,23 @@ h1 {
     grid-gap: 1rem;
 }
 ```
+
+### Spanning columns and rows
+```
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.item:first-child {
+    grid-column-start: 1;   - start at first column
+    grid-column-end: 4;     - end at column 4
+    grid-row-start: 1;      - start at first row
+    grid-row-end: 3;        - end at 3rd row
+    grid-column:1 / span 3; - Short hand property for column
+    grid-row: 1 / span 2;   - Shorthand property for row
+}
+
+```        
 
