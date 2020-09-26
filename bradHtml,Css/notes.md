@@ -316,6 +316,11 @@ h1 {
 ```
 
 ### Two dimensional setup (Grid with rows and columns)
+##### Syntax:
+```
+grid-template-columns: repeat(2, 2fr);
+grid-template-rows: 2fr 1fr;
+```
 ```
 .grid {
     display: grid;
@@ -327,8 +332,13 @@ h1 {
 ```
 
 ### Spanning columns and rows
+##### Syntax:
 ```
- .grid {
+grid-column:1 / span 3; - Short hand property for column
+grid-row: 1 / span 2;   - Shorthand property for row
+```
+```
+.grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
@@ -343,5 +353,71 @@ h1 {
     grid-row: 1 / span 2;   - Shorthand property for row
 }
 
+```
+### Minmax
+* setting minimum and maximum width
+##### Syntax:
+```
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+```
+```
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.item {
+    padding: 3rem;
+    border: #ccc 1px solid;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+```
+### Template Area
+```
+.container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'content content sidebar'
+        'box-1 box-2 box-2'
+        'box-3 box-3 box-3'
+        'footer footer footer';
+    grid-gap: 1rem;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.box-1 { grid-area: box-1 }
+.box-2 { grid-area: box-2 }
+.box-3 { grid-area: box-3 }
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+.header,
+.content,
+.box-1,
+.box-2,
+.box-3,
+.footer {
+    border: 1px #ccc solid;
+    padding: 0.5rem;
+}
 ```        
 
