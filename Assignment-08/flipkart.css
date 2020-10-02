@@ -14,7 +14,7 @@ body {
   z-index: 1;
   flex-wrap: wrap;
   width: 100%;
-  background-color:#2874F0 ;
+  background-color: #2874f0;
   padding: 5px 100px;
   margin: 0;
   align-items: center;
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-right: 40px;   
+  padding-right: 40px;
 }
 
 .logo a {
@@ -77,7 +77,7 @@ body {
 }
 
 .drop-btn {
-  background-color: #2874F0 ;
+  background-color: #2874f0;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -89,7 +89,7 @@ body {
   position: absolute;
   background-color: #fff;
   min-width: 250px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -99,7 +99,7 @@ body {
   border-bottom: 1px solid #eee;
   text-decoration: none;
   display: block;
-  }
+}
 
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -126,7 +126,7 @@ body {
   border: none;
   outline: none;
   background: #fff;
-  color: #2874F0;
+  color: #2874f0;
   font-weight: bold;
   font-size: 15px;
   padding: 7px 40px;
@@ -156,7 +156,7 @@ body {
   color: black;
   border: none;
   font-size: 14px;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
 
 /* Mobile view */
@@ -167,13 +167,12 @@ body {
 .electronics_dropdown {
   display: none;
   position: absolute;
-  background-color:#eee;
+  background-color: #eee;
   z-index: 1;
 }
 
 .arrow-electronics {
   color: rgb(88, 78, 78);
-  
 }
 
 .items a {
@@ -188,20 +187,19 @@ body {
   display: flex;
   padding-left: 10px;
   border: 1px solid grey;
-  background-color: #fff;    
+  background-color: #fff;
 }
 
 .main-dropdown:hover .button {
-  color: #2874F0;
+  color: #2874f0;
 }
-
 
 .main-dropdown:hover .items {
   width: 230px;
 }
 
 .main-dropdown:hover .items a:hover {
-  background-color: #eee; 
+  background-color: #eee;
 }
 
 .third-navigation {
@@ -209,12 +207,12 @@ body {
   display: flex;
   padding-left: 8px;
   padding-right: 8px;
-  padding-top: 8px;  
+  padding-top: 8px;
 }
 
 .side-navigation {
   padding: 10px;
-  max-width:280px;
+  max-width: 280px;
   background: #fff;
   border: 1px solid #eee;
 }
@@ -246,7 +244,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   color: #000;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .mobile {
@@ -353,7 +351,6 @@ body {
   padding-left: 5px;
 }
 
-
 .more-details {
   padding: 10px 0;
   font-size: 12px;
@@ -369,7 +366,7 @@ body {
 .section div {
   font-size: 13px;
   color: #000;
-  opacity: .6;
+  opacity: 0.6;
   padding-right: 5px;
 }
 
@@ -380,7 +377,7 @@ body {
 .mi-latest div {
   font-size: 13px;
   color: #000;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .mi-latest a {
@@ -393,7 +390,7 @@ body {
   width: 100%;
   background: #fff;
   padding: 0 15px;
-  margin-left:8px;
+  margin-left: 8px;
 }
 
 .mimobile-header {
@@ -402,8 +399,8 @@ body {
 }
 
 .mi-mobile {
- font-size: 16px;
- font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .results {
@@ -429,7 +426,7 @@ body {
 }
 
 .minote7 {
-  border-bottom:1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .note7-pro {
@@ -460,7 +457,7 @@ body {
 }
 
 .rating {
-  display: flex;  
+  display: flex;
 }
 
 .rating div {
@@ -479,12 +476,11 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-
 }
 
 .rating-review span {
   font-size: 13px;
-  opacity: .5;
+  opacity: 0.5;
   font-weight: 600;
 }
 
@@ -513,8 +509,8 @@ body {
 
 .actualprice {
   font-size: 14px;
-  text-decoration:line-through;
-  opacity: .7;
+  text-decoration: line-through;
+  opacity: 0.7;
 }
 
 .off {
@@ -581,9 +577,11 @@ body {
 }
 
 /* Media Queries */
- @media screen and (max-width:411px) {
-
-  .first-navigation,.second-navigation, .side-navigation, .mainnav-heading {
+@media screen and (max-width: 411px) {
+  .first-navigation,
+  .second-navigation,
+  .side-navigation,
+  .mainnav-heading {
     display: none;
   }
 
@@ -594,10 +592,4 @@ body {
   .logo-name {
     display: flex;
   }
-
-
-
-
- }
-
-
+}
