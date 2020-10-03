@@ -49,6 +49,10 @@ img {
   width: 40%;
 }
 
+.test-container:first-child {
+  background-color: blue;
+}
+
 @media (max-width: 500px) {
   html {
     font-size: 10px;

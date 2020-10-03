@@ -1,74 +1,54 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eee;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.first-navigation {
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  flex-wrap: wrap;
-  width: 100%;
+/* Main navigation */
+#top-navbar {
   background-color: #2874f0;
-  padding: 5px 100px;
-  margin: 0;
-  align-items: center;
 }
 
-.logo {
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-logo {
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  padding-right: 40px;
 }
 
-.logo a {
+.search-logo div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-logo div:first-child a {
   text-decoration: none;
-  font-size: 11px;
-  font-style: italic;
-  margin-top: -1px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
-.logo span {
-  color: #ffe500;
-  font-weight: 500;
-  margin-right: 2px;
-  font-family: Arial, Helvetica, sans-serif;
+.search-logo div:first-child a span {
+  color: rgb(240, 240, 6);
 }
 
-.search {
+.search-logo div:nth-child(2) {
   display: flex;
   align-items: center;
-  height: 36px;
-  max-width: 500px;
-  padding: 10px;
-  width: 100%;
   background-color: #fff;
-  border-radius: 3px;
+  width: 40%;
 }
 
-.search img {
-  align-items: center;
-  padding-left: 5px;
-}
-
-.search input {
-  padding-left: 5px;
-  width: 100%;
-  background-color: #fff;
+.search-logo div:nth-child(2) input {
   border: none;
-  outline: none;
-  text-decoration: none;
-  margin: 0px;
-  font-size: 14px;
-  color: #eee;
+  width: 90%;
+  padding: 0.4rem 1rem;
 }
 
 .dropdown {
@@ -118,7 +98,7 @@ body {
   padding-left: 160px;
 }
 
-.login-button {
+.btn {
   padding: 5px 40px;
 }
 
@@ -574,22 +554,4 @@ body {
 .helpcenter {
   display: flex;
   align-items: center;
-}
-
-/* Media Queries */
-@media screen and (max-width: 411px) {
-  .first-navigation,
-  .second-navigation,
-  .side-navigation,
-  .mainnav-heading {
-    display: none;
-  }
-
-  .first-nav {
-    display: flex;
-  }
-
-  .logo-name {
-    display: flex;
-  }
 }
