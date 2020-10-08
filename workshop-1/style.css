@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-1 {
+    background-color: #e4fbf5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .2rem;
+}
+
+.nav-1 div:first-child {
+    display: flex;
+    padding: .6rem;
+    border-right: 1px solid #ddd;  
+}
+
+.nav-1 div:first-child img {
+    padding: .3rem;
+}
+
+.language {
+    display: flex;
+}
