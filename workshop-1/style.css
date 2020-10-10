@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 ul li {
@@ -17,7 +23,7 @@ a {
     margin: 0 auto;
 }
 
-nav:first-child {
+.top-nav {
     background-color: #e4fbf5;
 
 }
@@ -27,7 +33,7 @@ nav:first-child {
     justify-content: flex-end;
     align-items: center;
     padding: .2rem;
-    background-color: blue;
+    /* background-color: blue; */
     min-width: 400px;
 }
 
@@ -72,6 +78,7 @@ nav:first-child {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: .7rem
 }
 
 .nav-2 div:first-child {
@@ -81,6 +88,10 @@ nav:first-child {
     min-width: 400px;
     /* background-color: brown; */
     align-items: center;
+}
+
+.nav-2 div:first-child img {
+    width: 40%;
 }
 
 .nav-2-contents {
@@ -99,6 +110,16 @@ nav:first-child {
     padding: 0 1em 0 1em;
 }
 
+.nav-2-contents ul li a {
+    color: #000;
+    font-size: 1rem;
+    opacity: .7;
+}
+
+.nav-2-contents ul li:last-child a {
+    font-weight: bold;
+}
+
 
 .search {
     background-color: #f5f5f5;
@@ -114,8 +135,83 @@ nav:first-child {
     background-color: #f5f5f5;
     padding: .4rem;
     width: 100%;
+    font-size: 1rem;
 }
 
 .search input:focus {
     outline: none;
+}
+
+#contents {
+    margin-top: 1rem;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contents div:first-child,
+.contents div:last-child {
+    padding: 1rem;
+}
+
+.contents div:first-child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 400px;
+}
+
+.contents div:first-child h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 2;
+    
+}
+
+.contents div:first-child h1 span { 
+    font-weight: bold;
+}
+
+.contents div:first-child p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.contents div:first-child p span {
+   font-weight: 600;
+}
+
+.contents div:first-child button {
+    background-color: #00d09c;
+    padding: 1rem 1rem;
+    color: #fff;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contents div:last-child {
+    width: 50%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 10px;
+    }
+    .top-nav {
+        display: none;
+    }
+
 }
