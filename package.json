@@ -1,0 +1,19 @@
+{
+  "name": "nnhtml-css-course",
+  "version": "1.0.0",
+  "description": "## 01_Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjune64/nnhtml-css-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjune64/nnhtml-css-course/issues"
+  },
+  "homepage": "https://github.com/arjune64/nnhtml-css-course#readme"
+}
